@@ -6,7 +6,7 @@ layout: landing
 
 Bienvenue sur mon site de projets !
 
-J'ai créer ce site pour pouvoir repertorier les projets que je fait pour pouvoir en apprendre plus !
+J'ai créé ce site pour pouvoir répertorier les projets que je fait pour pouvoir en apprendre plus !
 
 
 
