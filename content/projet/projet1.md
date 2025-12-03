@@ -1,9 +1,52 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Projet 1"
+title: "Hello Pico"
 ---
 
-# Bonjour voici mon premier projet
+# Minis programmes Pour Raspbery Pi Pico
 
-voivi une page encore vide mais qui va devenir interessente ! 
+
+
+
+
+
+![Le Pico](../../image/pico.jpg)
+
+
+L'équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
+
+
+
+## LED  
+
+```C
+
+int i = 0;
+
+void setup() {
+
+  pinMode(25, OUTPUT);
+  Serial.begin(9600);
+
+}
+
+void loop() {
+
+  Serial.println(i);
+
+  analogWrite(25, 50); 
+  Serial.println(" Allume");
+  delay(500);
+
+  digitalWrite(25, 0); 
+  Serial.println(" Eteint");
+  delay(1000);
+
+  i++;
+
+}
+
+````
+
+

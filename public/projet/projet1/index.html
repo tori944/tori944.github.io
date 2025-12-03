@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=50472&amp;path=livereload" data-no-instant defer></script>
   <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -8,32 +8,34 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Bonjour voici mon premier projet#voivi une page encore vide mais qui va devenir interessente !
-">
+<meta name="description" content="Minis programmes Pour Raspbery Pi Pico#L’équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
+LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); analogWrite(25, 50); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, 0); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/projet1/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:50472/projet/projet1/">
   <meta property="og:site_name" content="Tori">
-  <meta property="og:title" content="Projet 1">
-  <meta property="og:description" content="Bonjour voici mon premier projet#voivi une page encore vide mais qui va devenir interessente !">
+  <meta property="og:title" content="Hello Pico">
+  <meta property="og:description" content="Minis programmes Pour Raspbery Pi Pico#L’équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
+LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); analogWrite(25, 50); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, 0); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projet">
 
 
-  <meta itemprop="name" content="Projet 1">
-  <meta itemprop="description" content="Bonjour voici mon premier projet#voivi une page encore vide mais qui va devenir interessente !">
-  <meta itemprop="wordCount" content="16">
+  <meta itemprop="name" content="Hello Pico">
+  <meta itemprop="description" content="Minis programmes Pour Raspbery Pi Pico#L’équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
+LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); analogWrite(25, 50); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, 0); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
+  <meta itemprop="wordCount" content="52">
 
-<title>Projet 1 | Tori</title>
+<title>Hello Pico | Tori</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:1313/projet/projet1/">
+<link rel="canonical" href="http://localhost:50472/projet/projet1/">
 <link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.003f50774149d869d1b439cf7a1c5cbe44afacb0359b6527fbc3f8aa6997040b.js" integrity="sha256-AD9Qd0FJ2GnRtDnPehxcvkSvrLA1m2Un&#43;8P4qmmXBAs=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.d64150470d9fa6bf3209978844af8585184366e4ed0c9c279d539442dc183a08.js" integrity="sha256-1kFQRw2fpr8yCZeIRK&#43;FhRhDZuTtDJwnnVOUQtwYOgg=" crossorigin="anonymous"></script>
 
 
 
@@ -140,8 +142,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/projet/projet0/" class="">
-      Projet 0</a>
+    <a href="/projet/projet1/" class="active">
+      Hello Pico</a>
   
 
         </li>
@@ -154,8 +156,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/projet/projet1/" class="active">
-      Projet 1</a>
+    <a href="/projet/projet0/" class="">
+      Projet 0</a>
   
 
         </li>
@@ -215,23 +217,64 @@ https://github.com/alex-shpak/hugo-book
     <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Projet 1</h3>
+  <h3>Hello Pico</h3>
 
   <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
 
   
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#led">LED</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
  
       </header>
 
       
       
-  <article class="markdown book-article"><h1 id="bonjour-voici-mon-premier-projet">Bonjour voici mon premier projet<a class="anchor" href="#bonjour-voici-mon-premier-projet">#</a></h1>
-<p>voivi une page encore vide mais qui va devenir interessente !</p>
-</article>
+  <article class="markdown book-article"><h1 id="minis-programmes-pour-raspbery-pi-pico">Minis programmes Pour Raspbery Pi Pico<a class="anchor" href="#minis-programmes-pour-raspbery-pi-pico">#</a></h1>
+<p><img src="../../image/pico.jpg" alt="Le Pico" /></p>
+<p>L&rsquo;équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !</p>
+<h2 id="led">LED<a class="anchor" href="#led">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">pinMode</span>(<span style="color:#ae81ff">25</span>, OUTPUT);
+</span></span><span style="display:flex;"><span>  Serial.<span style="color:#a6e22e">begin</span>(<span style="color:#ae81ff">9600</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  Serial.<span style="color:#a6e22e">println</span>(i);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">analogWrite</span>(<span style="color:#ae81ff">25</span>, <span style="color:#ae81ff">50</span>); 
+</span></span><span style="display:flex;"><span>  Serial.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34; Allume&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">delay</span>(<span style="color:#ae81ff">500</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">digitalWrite</span>(<span style="color:#ae81ff">25</span>, <span style="color:#ae81ff">0</span>); 
+</span></span><span style="display:flex;"><span>  Serial.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34; Eteint&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">delay</span>(<span style="color:#ae81ff">1000</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  i<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></article>
  
       
 
@@ -261,16 +304,16 @@ https://github.com/alex-shpak/hugo-book
   <div class="flex flex-wrap justify-between">
     <span>
     
-      <a href="/projet/projet0/" class="flex align-center">
+      <a href="/projet/" class="flex align-center">
         <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
-        <span>Projet 0</span>
+        <span>Les Projets</span>
       </a>
     
     </span>
     <span>
     
-      <a href="/projet/projet2/" class="flex align-center">
-        <span>Projet 2</span>
+      <a href="/projet/projet0/" class="flex align-center">
+        <span>Projet 0</span>
         <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>
     
@@ -303,6 +346,21 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
     
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#led">LED</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
   
  
   </main>
