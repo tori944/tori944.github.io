@@ -10,6 +10,8 @@ title: "Projet 0"
 
 Pour faire ce site j'ai utilisé le framwork Hugo qui est un générateur de site web statique.
 
+{{<button href="https://gohugo.io/">}}Site Hugo{{</button>}}
+
 C'est censé être simpe mais je n'y comprends pas grand chose pour le moment :/
 
 Mais je vais apprendre, çe monde à l'air si vaste ! 
@@ -17,3 +19,6 @@ Mais je vais apprendre, çe monde à l'air si vaste !
 ## 2 : Hébergement
 
 J'utilise git hub pages pour un hébergement gratuit
+
+{{<button href="https://github.com/tori944">}}Mon GitHub{{</button>}}
+

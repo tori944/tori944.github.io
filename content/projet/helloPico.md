@@ -14,6 +14,8 @@ title: "Hello Pico"
 ![Le Pico](../../image/pico.jpg)
 
 
+
+
 L'équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
 
 
