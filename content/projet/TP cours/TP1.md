@@ -160,7 +160,6 @@ void loop() {
 ⚡🐛🚜\
 Chenillard aller-retour qui accélère
 
-_alors on est en présence d'un code très peu et mal optimisé_
 
 ```C
 
@@ -253,8 +252,8 @@ c'est à dire qu'on a :\
 - 3 LED, respectivement les résultats de AND, OR, XOR 
 - 2 boutons pour les variables binaires
 
-petits tableau récapitulatif de toute ces belles fonctions :
-(oui même si tout le monde les connais, au moins je mes des tableaux, ensuite on verra comment les mettres côte à côte)
+petits tableau récapitulatif de toute ces belles fonctions :\
+(oui même si tout le monde les connais, au moins je mets des tableaux, ensuite on verra comment les mettres côte à côte)
 
 |AND  |
 |-|-|-|
