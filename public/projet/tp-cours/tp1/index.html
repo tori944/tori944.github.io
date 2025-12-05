@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=62434&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -15,7 +15,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:62434/projet/tp-cours/tp1/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/tp-cours/tp1/">
   <meta property="og:site_name" content="Tori">
   <meta property="og:title" content="TP_1">
   <meta property="og:description" content="TP 1#◑﹏◐
@@ -32,17 +32,17 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
 Cette page est en conctructions, les programmes sont à remanier
 TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds
 int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma">
-  <meta itemprop="wordCount" content="630">
+  <meta itemprop="wordCount" content="618">
 
 <title>TP_1 | Tori</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:62434/projet/tp-cours/tp1/">
+<link rel="canonical" href="http://localhost:1313/projet/tp-cours/tp1/">
 <link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.e28069285b6d0287425f3d121293972c6b460845843b1ae0985adb56df448bfd.js" integrity="sha256-4oBpKFttAodCXz0SEpOXLGtGCEWEOxrgmFrbVt9Ei/0=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.b125bb5705c780f81126bb7a6ad29eeb1ab91781b45b4437625c309edc5b65e7.js" integrity="sha256-sSW7VwXHgPgRJrt6atKe6xq5F4G0W0Q3YlwwntxbZec=" crossorigin="anonymous"></script>
 
 
 
@@ -135,8 +135,12 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <a href="/projet/" class="">
-      Les Projets</a>
+    <input type="checkbox" id="section-6af9fb9e0ae84ba52a61c86504551d63" class="toggle" checked />
+    <label for="section-6af9fb9e0ae84ba52a61c86504551d63" class="flex">
+      <a role="button" class="">
+        Les Projets</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
   
 
           
@@ -234,6 +238,25 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
 
         </li>
       
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/presentation/" class="">
+      Présentation</a>
+  
+
+          
+  <ul>
     
   </ul>
 
@@ -432,7 +455,6 @@ les programmes sont à remanier</p></blockquote><span class="book-badge success"
 </span></span><span style="display:flex;"><span>}</span></span></code></pre></div><h2 id="exercice-5">Exercice 5<a class="anchor" href="#exercice-5">#</a></h2>
 <p>⚡🐛🚜<br>
 Chenillard aller-retour qui accélère</p>
-<p><em>alors on est en présence d&rsquo;un code très peu et mal optimisé</em></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>;              <span style="color:#75715e">// pour le nom de la pin
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">bool</span> sens <span style="color:#f92672">=</span> true;       <span style="color:#75715e">// le sens, si on ajoute ou retir 1 au nom de la pin      
@@ -510,8 +532,8 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
 <li>3 LED, respectivement les résultats de AND, OR, XOR</li>
 <li>2 boutons pour les variables binaires</li>
 </ul>
-<p>petits tableau récapitulatif de toute ces belles fonctions :
-(oui même si tout le monde les connais, au moins je mes des tableaux, ensuite on verra comment les mettres côte à côte)</p>
+<p>petits tableau récapitulatif de toute ces belles fonctions :<br>
+(oui même si tout le monde les connais, au moins je mets des tableaux, ensuite on verra comment les mettres côte à côte)</p>
 <table>
   <thead>
       <tr>

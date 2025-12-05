@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Les Idées on Tori</title>
-    <link>http://localhost:62434/idee/</link>
+    <link>http://localhost:1313/idee/</link>
     <description>Recent content in Les Idées on Tori</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:62434/idee/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/idee/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

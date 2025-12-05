@@ -28,6 +28,7 @@ Voici la liste :
 - jeu du solitaire
     - \+ bot ?
 - led comme capteur de lumière
+- utiliser le Pico ePaper
 
 
 
