@@ -12,7 +12,7 @@ title: "Hello Pico"
 
 
 ![Le Pico](../../image/pico.jpg "le Pico")
-_test de source_
+_source : personnelle_
 
 
 

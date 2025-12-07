@@ -15,7 +15,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/tp-cours/tp1/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/tp-cours/tp1/">
   <meta property="og:site_name" content="Tori">
   <meta property="og:title" content="TP_1">
   <meta property="og:description" content="TP 1#◑﹏◐
@@ -24,7 +24,7 @@ TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binair
 int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="projet">
+    <meta property="article:section" content="tp-cours">
 
 
   <meta itemprop="name" content="TP_1">
@@ -37,7 +37,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
 <title>TP_1 | Tori</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:1313/projet/tp-cours/tp1/">
+<link rel="canonical" href="http://localhost:1313/tp-cours/tp1/">
 <link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
 
 
@@ -48,7 +48,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
 
   
 </head>
-<body dir="ltr" class="book-kind-page book-type-projet">
+<body dir="ltr" class="book-kind-page book-type-tp-cours">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -135,7 +135,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <input type="checkbox" id="section-6af9fb9e0ae84ba52a61c86504551d63" class="toggle" checked />
+    <input type="checkbox" id="section-6af9fb9e0ae84ba52a61c86504551d63" class="toggle"  />
     <label for="section-6af9fb9e0ae84ba52a61c86504551d63" class="flex">
       <a role="button" class="">
         Les Projets</a>
@@ -188,6 +188,11 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
         </li>
       
     
+  </ul>
+
+        </li>
+      
+    
       
         <li>
           
@@ -195,8 +200,8 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <input type="checkbox" id="section-95b6326eda5a9f89f535563b50a16c85" class="toggle" checked />
-    <label for="section-95b6326eda5a9f89f535563b50a16c85" class="flex">
+    <input type="checkbox" id="section-77babbc59420d945a7aff01fbf2cd43e" class="toggle" checked />
+    <label for="section-77babbc59420d945a7aff01fbf2cd43e" class="flex">
       <a role="button" class="">
         Tp Cours</a>
       <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
@@ -213,7 +218,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <a href="/projet/tp-cours/tp1/" class="active">
+    <a href="/tp-cours/tp1/" class="active">
       TP_1</a>
   
 
@@ -227,14 +232,9 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <a href="/projet/tp-cours/tp2/" class="">
+    <a href="/tp-cours/tp2/" class="">
       TP_2</a>
   
-
-        </li>
-      
-    
-  </ul>
 
         </li>
       
@@ -665,7 +665,7 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
     </span>
     <span>
     
-      <a href="/projet/tp-cours/tp2/" class="flex align-center">
+      <a href="/tp-cours/tp2/" class="flex align-center">
         <span>TP_2</span>
         <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>

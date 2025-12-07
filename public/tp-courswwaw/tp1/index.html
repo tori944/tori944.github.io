@@ -9,46 +9,46 @@ https://github.com/alex-shpak/hugo-book
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="TP 1#◑﹏◐
-Cette page est en conctructions, les programmes sont à remanier
+Cette page est en constructions, les programmes sont à remanier
 TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds
 int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/tp-cours/tp1/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/tp-courswwaw/tp1/">
   <meta property="og:site_name" content="Tori">
   <meta property="og:title" content="TP_1">
   <meta property="og:description" content="TP 1#◑﹏◐
-Cette page est en conctructions, les programmes sont à remanier
+Cette page est en constructions, les programmes sont à remanier
 TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds
 int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="projet">
+    <meta property="article:section" content="tp-courswwaw">
 
 
   <meta itemprop="name" content="TP_1">
   <meta itemprop="description" content="TP 1#◑﹏◐
-Cette page est en conctructions, les programmes sont à remanier
+Cette page est en constructions, les programmes sont à remanier
 TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds
 int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma">
-  <meta itemprop="wordCount" content="618">
+  <meta itemprop="wordCount" content="603">
 
 <title>TP_1 | Tori</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:1313/projet/tp-cours/tp1/">
+<link rel="canonical" href="http://localhost:1313/tp-courswwaw/tp1/">
 <link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.9019298a4b9fb93ec1cda38def4632c8594336f3bf177dcd0c842e620171741e.js" integrity="sha256-kBkpikufuT7BzaON70YyyFlDNvO/F33NDIQuYgFxdB4=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.dc02933a8a3be3e61d2fd1dcbf28da19784a668eb9d53c32cfd299f66d7ba276.js" integrity="sha256-3AKTOoo74&#43;YdL9HcvyjaGXhKZo651Twyz9KZ9m17onY=" crossorigin="anonymous"></script>
 
 
 
   
 </head>
-<body dir="ltr" class="book-kind-page book-type-projet">
+<body dir="ltr" class="book-kind-page book-type-tp-courswwaw">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -135,9 +135,9 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <input type="checkbox" id="section-6af9fb9e0ae84ba52a61c86504551d63" class="toggle" checked />
+    <input type="checkbox" id="section-6af9fb9e0ae84ba52a61c86504551d63" class="toggle"  />
     <label for="section-6af9fb9e0ae84ba52a61c86504551d63" class="flex">
-      <a role="button" class="">
+      <a href="/projet/" class="">
         Les Projets</a>
       <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
@@ -188,17 +188,22 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
         </li>
       
     
+  </ul>
+
+        </li>
       
-        <li>
+    
+      
+        <li class="book-section-flat" >
           
   
   
 
   
-    <input type="checkbox" id="section-95b6326eda5a9f89f535563b50a16c85" class="toggle" checked />
-    <label for="section-95b6326eda5a9f89f535563b50a16c85" class="flex">
+    <input type="checkbox" id="section-36408ea84c6d68c4a40db4ec1ff2fcb6" class="toggle" checked />
+    <label for="section-36408ea84c6d68c4a40db4ec1ff2fcb6" class="flex">
       <a role="button" class="">
-        Tp Cours</a>
+        TP cours</a>
       <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
   
@@ -213,7 +218,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <a href="/projet/tp-cours/tp1/" class="active">
+    <a href="/tp-courswwaw/tp1/" class="active">
       TP_1</a>
   
 
@@ -227,14 +232,9 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   
 
   
-    <a href="/projet/tp-cours/tp2/" class="">
+    <a href="/tp-courswwaw/tp2/" class="">
       TP_2</a>
   
-
-        </li>
-      
-    
-  </ul>
 
         </li>
       
@@ -320,7 +320,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   <article class="markdown book-article"><h1 id="tp-1">TP 1<a class="anchor" href="#tp-1">#</a></h1>
 <blockquote class='book-hint danger'>
 <p><strong>◑﹏◐</strong><br>
-Cette page est en conctructions,
+Cette page est en constructions,
 les programmes sont à remanier</p></blockquote><span class="book-badge success"><span class="book-badge-title">TP</span><span class="book-badge-value">Beginner</span></span>
 <h2 id="exercice-2">Exercice 2<a class="anchor" href="#exercice-2">#</a></h2>
 <p>Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds</p>
@@ -517,22 +517,21 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
 <li>3 LED, respectivement les résultats de AND, OR, XOR</li>
 <li>2 boutons pour les variables binaires</li>
 </ul>
-<p>petits tableau récapitulatif de toute ces belles fonctions :<br>
-(oui même si tout le monde les connais, au moins je mets des tableaux, ensuite on verra comment les mettres côte à côte)</p>
+<p>petits tableau récapitulatif de toute ces belles fonctions :
+(oui même si tout le monde les connais)</p>
+<div class="book-columns">
+<ul>
+<li>
+<p>AND</p>
 <table>
   <thead>
       <tr>
-          <th>AND</th>
-          <th></th>
-          <th></th>
+          <th>a</th>
+          <th>b</th>
+          <th>r</th>
       </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>a</td>
-          <td>b</td>
-          <td>r</td>
-      </tr>
       <tr>
           <td>0</td>
           <td>0</td>
@@ -555,20 +554,18 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
       </tr>
   </tbody>
 </table>
+</li>
+<li>
+<p>OR</p>
 <table>
   <thead>
       <tr>
-          <th>OR</th>
-          <th></th>
-          <th></th>
+          <th>a</th>
+          <th>b</th>
+          <th>r</th>
       </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>a</td>
-          <td>b</td>
-          <td>r</td>
-      </tr>
       <tr>
           <td>0</td>
           <td>0</td>
@@ -591,20 +588,18 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
       </tr>
   </tbody>
 </table>
+</li>
+<li>
+<p>NOR</p>
 <table>
   <thead>
       <tr>
-          <th>NOR</th>
-          <th></th>
-          <th></th>
+          <th>a</th>
+          <th>b</th>
+          <th>r</th>
       </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>a</td>
-          <td>b</td>
-          <td>r</td>
-      </tr>
       <tr>
           <td>0</td>
           <td>0</td>
@@ -627,6 +622,9 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
       </tr>
   </tbody>
 </table>
+</li>
+</ul>
+</div>
 <div class="highlight"><pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span>Bientôt disponible</span></span></code></pre></div></article>
  
       
@@ -665,7 +663,7 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
     </span>
     <span>
     
-      <a href="/projet/tp-cours/tp2/" class="flex align-center">
+      <a href="/tp-courswwaw/tp2/" class="flex align-center">
         <span>TP_2</span>
         <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>

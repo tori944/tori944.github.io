@@ -2,10 +2,6 @@
 weight: 1
 bookFlatSection: true
 bookCollapseSection: true
-title: "Les Projets"
+title: "TP cours"
 ---
-
-# Les projets
-
-
 

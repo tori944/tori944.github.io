@@ -8,7 +8,7 @@ title: "TP_1"
 
 > [!DANGER]
 > **◑﹏◐**  
-> Cette page est en conctructions,
+> Cette page est en constructions,
 > les programmes sont à remanier
 
 {{< badge style="success" title="TP" value="Beginner" >}}
@@ -252,32 +252,39 @@ c'est à dire qu'on a :\
 - 3 LED, respectivement les résultats de AND, OR, XOR 
 - 2 boutons pour les variables binaires
 
-petits tableau récapitulatif de toute ces belles fonctions :\
-(oui même si tout le monde les connais, au moins je mets des tableaux, ensuite on verra comment les mettres côte à côte)
+petits tableau récapitulatif de toute ces belles fonctions :
+(oui même si tout le monde les connais)
 
-|AND  |
-|-|-|-|
-|a|b|r|
-|0|0|0|
-|0|1|0|
-|1|1|1|
-|1|0|0|
+{{% columns %}}
+- AND
+  
+  |a|b|r|
+  |-|-|-|
+  |0|0|0|
+  |0|1|0|
+  |1|1|1|
+  |1|0|0|
 
-|OR   |
-|-|-|-|
-|a|b|r|
-|0|0|0|
-|0|1|1|
-|1|1|1|
-|1|0|1|
+- OR
+  
+  |a|b|r|
+  |-|-|-|
+  |0|0|0|
+  |0|1|1|
+  |1|1|1|
+  |1|0|1|
 
-|NOR  |
-|-|-|-|
-|a|b|r|
-|0|0|0|
-|0|1|1|
-|1|1|0|
-|1|0|1|
+- NOR
+
+  |a|b|r|
+  |-|-|-|
+  |0|0|0|
+  |0|1|1|
+  |1|1|0|
+  |1|0|1|
+
+{{% /columns %}}
+
 
 ```C
 Bientôt disponible

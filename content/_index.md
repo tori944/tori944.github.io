@@ -4,9 +4,13 @@ layout: landing
 ---
 # Bonjour
 
-Bienvenue sur mon site de projets !
+<div align=center>hey</div>
 
-J'ai créé ce site pour pouvoir répertorier les projets que je fait pour pouvoir en apprendre plus !
+
+
+Bienvenue sur mon site experimental de projets !
+
+J'ai créé ce site pour pouvoir répertorier les projets que je fait pour en apprendre plus !
 
 
 {{<button href="/projet">}}Voir les projets{{</button>}}
@@ -25,6 +29,7 @@ J'ai créé ce site pour pouvoir répertorier les projets que je fait pour pouvo
  ||      /    \)___)\
  | \____(      )___) )___
   \______(_______;;; __;;;
+
 
 ```
 

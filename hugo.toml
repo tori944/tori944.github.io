@@ -3,8 +3,24 @@ languageCode = 'en-us'
 title = 'Tori'
 theme = 'hugo-book' 
 
+# #######################
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[markup.highlight]
+  style = 'base16-snazzy'
+# #######################
+
+
+
 [params]
     BookSection = '*'
     BookTheme = 'light'
+    BookSearch = true
     
 
