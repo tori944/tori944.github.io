@@ -10,7 +10,7 @@ https://github.com/alex-shpak/hugo-book
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Minis programmes Pour Raspbery Pi Pico#source : personnelle
 L’équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
-LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); analogWrite(25, 50); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, 0); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
+LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); digitalWrite(25, HIGH); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, LOW); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/hellopico/">
@@ -18,7 +18,7 @@ LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void l
   <meta property="og:title" content="Hello Pico">
   <meta property="og:description" content="Minis programmes Pour Raspbery Pi Pico#source : personnelle
 L’équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
-LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); analogWrite(25, 50); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, 0); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
+LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); digitalWrite(25, HIGH); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, LOW); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projet">
@@ -27,7 +27,7 @@ LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void l
   <meta itemprop="name" content="Hello Pico">
   <meta itemprop="description" content="Minis programmes Pour Raspbery Pi Pico#source : personnelle
 L’équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
-LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); analogWrite(25, 50); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, 0); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
+LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void loop() { Serial.println(i); digitalWrite(25, HIGH); Serial.println(&#34; Allume&#34;); delay(500); digitalWrite(25, LOW); Serial.println(&#34; Eteint&#34;); delay(1000); i&#43;&#43;; }">
   <meta itemprop="wordCount" content="55">
 
 <title>Hello Pico | Tori</title>
@@ -38,7 +38,7 @@ LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void l
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.dc02933a8a3be3e61d2fd1dcbf28da19784a668eb9d53c32cfd299f66d7ba276.js" integrity="sha256-3AKTOoo74&#43;YdL9HcvyjaGXhKZo651Twyz9KZ9m17onY=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.7860279adb4f5169342cc6e84e2c0d6cf7c392cfc63e7759e8367fd9724f817c.js" integrity="sha256-eGAnmttPUWk0LMboTiwNbPfDks/GPndZ6DZ/2XJPgXw=" crossorigin="anonymous"></script>
 
 
 
@@ -327,11 +327,11 @@ LED#int i = 0; void setup() { pinMode(25, OUTPUT); Serial.begin(9600); } void l
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  Serial.<span style="color:#57c7ff">println</span>(i);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">analogWrite</span>(<span style="color:#ff9f43">25</span>, <span style="color:#ff9f43">50</span>); 
+</span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">25</span>, HIGH); 
 </span></span><span style="display:flex;"><span>  Serial.<span style="color:#57c7ff">println</span>(<span style="color:#5af78e">&#34; Allume&#34;</span>);
 </span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">delay</span>(<span style="color:#ff9f43">500</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">25</span>, <span style="color:#ff9f43">0</span>); 
+</span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">25</span>, LOW); 
 </span></span><span style="display:flex;"><span>  Serial.<span style="color:#57c7ff">println</span>(<span style="color:#5af78e">&#34; Eteint&#34;</span>);
 </span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">delay</span>(<span style="color:#ff9f43">1000</span>);
 </span></span><span style="display:flex;"><span>

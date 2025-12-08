@@ -11,7 +11,7 @@ https://github.com/alex-shpak/hugo-book
 <meta name="description" content="TP 1#◑﹏◐
 Cette page est en constructions, les programmes sont à remanier
 TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds
-int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma
+int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#Voici un exercice très original où une led clignote
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
@@ -21,7 +21,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   <meta property="og:description" content="TP 1#◑﹏◐
 Cette page est en constructions, les programmes sont à remanier
 TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds
-int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma">
+int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#Voici un exercice très original où une led clignote">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tp-courswwaw">
@@ -31,8 +31,8 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
   <meta itemprop="description" content="TP 1#◑﹏◐
 Cette page est en constructions, les programmes sont à remanier
 TPBeginner Exercice 2#Le nombre de clic sur un bouton est retranscrit en binaire sur 3 leds
-int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#pas fini -&gt; faire un schéma">
-  <meta itemprop="wordCount" content="603">
+int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.begin(9600); //afin de pouvoir aficher dans le terminal pinMode(2, INPUT); pinMode(3, OUTPUT); pinMode(4, OUTPUT); pinMode(5, OUTPUT); } void loop() { if (digitalRead(2) == HIGH){ // si btn appuyé compt&#43;&#43;; // compt &#43;1 delay(500); // afin de ne pas prendre en compt le rebon if (compt == 8){compt = 0;} // si compt arrive à 8, on repasse à 0 car on a 3 leds Serial.print(compt); // écrit dans le terminal l&#39;état de la var compt } // convertion de la base 10 en base 2 pour les leds led3 = compt%2; led2 = (compt/2)%2; led1 = ((compt/2)/2)%2; // affichage led if (led1 == 1){ digitalWrite(3, HIGH); }else{ digitalWrite(3, LOW); } if (led2 == 1){ digitalWrite(4, HIGH); }else{ digitalWrite(4, LOW); } if (led3 == 1){ digitalWrite(5, HIGH); }else{ digitalWrite(5, LOW); } }Exercice 3#Voici un exercice très original où une led clignote">
+  <meta itemprop="wordCount" content="781">
 
 <title>TP_1 | Tori</title>
 <link rel="icon" href="/favicon.png" >
@@ -42,7 +42,7 @@ int compt; // nm clic btn int led1; int led2; int led3; void setup() { Serial.be
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.dc02933a8a3be3e61d2fd1dcbf28da19784a668eb9d53c32cfd299f66d7ba276.js" integrity="sha256-3AKTOoo74&#43;YdL9HcvyjaGXhKZo651Twyz9KZ9m17onY=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.7860279adb4f5169342cc6e84e2c0d6cf7c392cfc63e7759e8367fd9724f817c.js" integrity="sha256-eGAnmttPUWk0LMboTiwNbPfDks/GPndZ6DZ/2XJPgXw=" crossorigin="anonymous"></script>
 
 
 
@@ -380,10 +380,11 @@ les programmes sont à remanier</p></blockquote><span class="book-badge success"
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>}</span></span></code></pre></div><h2 id="exercice-3">Exercice 3<a class="anchor" href="#exercice-3">#</a></h2>
-<p><em>pas fini</em> <br>
--&gt; faire un schéma</p>
-<div class="highlight"><pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#9aedfe">int</span> temps;
+<p>Voici un exercice très original où une led clignote</p>
+<div class="book-columns">
+<ul>
+<li>
+<div class="highlight"><pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#9aedfe">int</span> temps;
 </span></span><span style="display:flex;"><span><span style="color:#9aedfe">int</span> interval<span style="color:#ff6ac1">=</span><span style="color:#ff9f43">3000</span>;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#9aedfe">void</span> <span style="color:#57c7ff">setup</span>() {
@@ -393,7 +394,7 @@ les programmes sont à remanier</p></blockquote><span class="book-badge success"
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#9aedfe">void</span> <span style="color:#57c7ff">loop</span>() {
-</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#ff6ac1">if</span> (<span style="color:#57c7ff">digitalRead</span>(<span style="color:#ff9f43">2</span>) <span style="color:#ff6ac1">==</span> HIGH){
 </span></span><span style="display:flex;"><span>    temps<span style="color:#ff6ac1">=</span><span style="color:#57c7ff">millis</span>();
 </span></span><span style="display:flex;"><span>    <span style="color:#ff6ac1">while</span>( <span style="color:#57c7ff">millis</span>()<span style="color:#ff6ac1">&lt;=</span> (temps<span style="color:#ff6ac1">+</span>interval)){
@@ -415,7 +416,21 @@ les programmes sont à remanier</p></blockquote><span class="book-badge success"
 </span></span><span style="display:flex;"><span>        <span style="color:#57c7ff">delay</span>(<span style="color:#ff9f43">100</span>);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div><h2 id="exercice-4-">Exercice 4 🐛<a class="anchor" href="#exercice-4-">#</a></h2>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></li>
+<li>
+<pre class="mermaid">flowchart TD
+    A{Btn 1 appuye} --&gt;|Demarrage| B(Led 1 Hz, 3s)
+    B --&gt; C{Btn 1 appuye}
+    C --&gt;D(Led 2 Hz, 3s)
+    D --&gt;E{Btn 1 appuye}
+    E --&gt;F(Led 4 Hz, 3s)
+    F --&gt;G{Btn 1 appuye}
+    G --&gt;H(Led 8 Hz, 3s)
+    H --&gt;I{Btn 1 appuye}
+    I --&gt;B</pre><script src="/mermaid.min.js"></script><script>mermaid.initialize({"flowchart":{"useMaxWidth":true},"theme":"default"})</script></li>
+</ul>
+</div>
+<h2 id="exercice-4-">Exercice 4 🐛<a class="anchor" href="#exercice-4-">#</a></h2>
 <p>Chenillard sur 4 LED</p>
 <div class="highlight"><pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#9aedfe">int</span> i <span style="color:#ff6ac1">=</span> <span style="color:#ff9f43">2</span>;
@@ -475,7 +490,7 @@ Chenillard aller-retour qui accélère</p>
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>}</span></span></code></pre></div><h2 id="exercice-6">Exercice 6<a class="anchor" href="#exercice-6">#</a></h2>
-<p>Vraiment la consigne est pas claire, ça ce vois que le gars qui a écrit ça a galéré<br>
+<p>Bon, la consigne n&rsquo;était pas claire<br>
 Donc on va imporvisé avec un truc qui me semble cohérent<br>
 Au programme ça sera donc chenillard qui change de sens avec le boutton<br>
 ¯\<em>(ツ)</em>/¯</p>
@@ -511,8 +526,8 @@ Au programme ça sera donc chenillard qui change de sens avec le boutton<br>
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  
 </span></span><span style="display:flex;"><span>}</span></span></code></pre></div><h2 id="exercice-7">Exercice 7<a class="anchor" href="#exercice-7">#</a></h2>
-<p>Ok là ça devient un peu plus rogolo, on s&rsquo;attaque aux fonctions logiques
-c&rsquo;est à dire qu&rsquo;on a :\</p>
+<p>Ok là ça devient un peu plus rigolo, on s&rsquo;attaque aux fonctions logiques
+c&rsquo;est à dire qu&rsquo;on a :</p>
 <ul>
 <li>3 LED, respectivement les résultats de AND, OR, XOR</li>
 <li>2 boutons pour les variables binaires</li>
@@ -590,7 +605,7 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
 </table>
 </li>
 <li>
-<p>NOR</p>
+<p>XOR</p>
 <table>
   <thead>
       <tr>
@@ -625,7 +640,62 @@ c&rsquo;est à dire qu&rsquo;on a :\</p>
 </li>
 </ul>
 </div>
-<div class="highlight"><pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span>Bientôt disponible</span></span></code></pre></div></article>
+<details ><summary>Voici un lien</summary><div class="markdown-inner">
+<p>Il ne fonctionne pas très bien donc il s&rsquo;est caché</p>
+<p><a href="https://wokwi.com/projects/449795766844585985" target="_blank">{{{(&gt;_&lt;)}}}<a></p>
+<p>L&rsquo;idée c&rsquo;était de proposé une simulation avec le pico</p>
+</div></details>
+<div class="highlight"><pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#9aedfe">int</span> a <span style="color:#ff6ac1">=</span> <span style="color:#ff9f43">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#9aedfe">int</span> b <span style="color:#ff6ac1">=</span> <span style="color:#ff9f43">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#9aedfe">void</span> <span style="color:#57c7ff">setup</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">pinMode</span>(<span style="color:#ff9f43">26</span>, OUTPUT);  <span style="color:#78787e">// led 3 (and)
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>  <span style="color:#57c7ff">pinMode</span>(<span style="color:#ff9f43">27</span>, OUTPUT);  <span style="color:#78787e">// led 2 (or)
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>  <span style="color:#57c7ff">pinMode</span>(<span style="color:#ff9f43">28</span>, OUTPUT);  <span style="color:#78787e">// led 1 (xor)
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57c7ff">pinMode</span>(<span style="color:#ff9f43">3</span>, INPUT);    <span style="color:#78787e">// btn A
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>  <span style="color:#57c7ff">pinMode</span>(<span style="color:#ff9f43">4</span>, INPUT);    <span style="color:#78787e">// btn B
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#9aedfe">void</span> <span style="color:#57c7ff">loop</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#ff6ac1">if</span>(<span style="color:#57c7ff">digitalRead</span>(<span style="color:#ff9f43">3</span>) <span style="color:#ff6ac1">==</span> HIGH){
+</span></span><span style="display:flex;"><span>    <span style="color:#ff6ac1">if</span> (a <span style="color:#ff6ac1">==</span> <span style="color:#ff9f43">1</span>){
+</span></span><span style="display:flex;"><span>      a <span style="color:#ff6ac1">=</span> <span style="color:#ff9f43">0</span>;
+</span></span><span style="display:flex;"><span>    }<span style="color:#ff6ac1">else</span>{
+</span></span><span style="display:flex;"><span>      a <span style="color:#ff6ac1">=</span> <span style="color:#ff9f43">1</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff6ac1">if</span>(<span style="color:#57c7ff">digitalRead</span>(<span style="color:#ff9f43">4</span>) <span style="color:#ff6ac1">==</span> HIGH){
+</span></span><span style="display:flex;"><span>    <span style="color:#ff6ac1">if</span> (b <span style="color:#ff6ac1">==</span> <span style="color:#ff9f43">1</span> ){
+</span></span><span style="display:flex;"><span>      b <span style="color:#ff6ac1">=</span> <span style="color:#ff9f43">0</span>;
+</span></span><span style="display:flex;"><span>    }<span style="color:#ff6ac1">else</span>{
+</span></span><span style="display:flex;"><span>      b <span style="color:#ff6ac1">=</span> <span style="color:#ff9f43">1</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#78787e">// AND
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>  <span style="color:#ff6ac1">if</span> (a <span style="color:#ff6ac1">==</span> <span style="color:#ff9f43">1</span> <span style="color:#ff6ac1">&amp;&amp;</span> b <span style="color:#ff6ac1">==</span> <span style="color:#ff9f43">1</span>){
+</span></span><span style="display:flex;"><span>    <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">26</span>, HIGH);
+</span></span><span style="display:flex;"><span>  }<span style="color:#ff6ac1">else</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">26</span>, LOW);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#78787e">// OR
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>  <span style="color:#ff6ac1">if</span> (a <span style="color:#ff6ac1">==</span> <span style="color:#ff9f43">0</span> <span style="color:#ff6ac1">&amp;&amp;</span> b <span style="color:#ff6ac1">==</span> <span style="color:#ff9f43">0</span>){
+</span></span><span style="display:flex;"><span>    <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">27</span>, LOW);
+</span></span><span style="display:flex;"><span>  }<span style="color:#ff6ac1">else</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">27</span>, HIGH);  
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#78787e">// XOR
+</span></span></span><span style="display:flex;"><span><span style="color:#78787e"></span>  <span style="color:#ff6ac1">if</span> (a <span style="color:#ff6ac1">==</span> b){
+</span></span><span style="display:flex;"><span>    <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">28</span>, LOW);  
+</span></span><span style="display:flex;"><span>  }<span style="color:#ff6ac1">else</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#57c7ff">digitalWrite</span>(<span style="color:#ff9f43">28</span>, HIGH);  
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></article>
  
       
 

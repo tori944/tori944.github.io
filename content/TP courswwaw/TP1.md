@@ -84,47 +84,61 @@ void loop() {
 
 ## Exercice 3
 
-*pas fini* \
--> faire un schéma
+Voici un exercice très original où une led clignote
+
+{{% columns %}}
+- ````C
+  int temps;
+  int interval=3000;
+
+  void setup() {
+    pinMode(2, INPUT);
+    pinMode(3, OUTPUT);
+
+  }
+
+  void loop() {
+    
+    if (digitalRead(2) == HIGH){
+      temps=millis();
+      while( millis()<= (temps+interval)){
+          digitalWrite(3, HIGH);
+          delay(100);
+          digitalWrite(3, LOW);
+          delay(100);
+      }
+    }
 
 
-```C
 
-int temps;
-int interval=3000;
-
-void setup() {
-  pinMode(2, INPUT);
-  pinMode(3, OUTPUT);
-
-}
-
-void loop() {
-  
-  if (digitalRead(2) == HIGH){
-    temps=millis();
-    while( millis()<= (temps+interval)){
-        digitalWrite(3, HIGH);
-        delay(100);
-        digitalWrite(3, LOW);
-        delay(100);
+    if (digitalRead(2) == HIGH){
+      temps=millis();
+      while( millis()<= (temps+interval)){
+          digitalWrite(3, HIGH);
+          delay(500);
+          digitalWrite(3, LOW);
+          delay(100);
+      }
     }
   }
 
+  ````
 
+- ```mermaid
+  flowchart TD
+      A{Btn 1 appuye} -->|Demarrage| B(Led 1 Hz, 3s)
+      B --> C{Btn 1 appuye}
+      C -->D(Led 2 Hz, 3s)
+      D -->E{Btn 1 appuye}
+      E -->F(Led 4 Hz, 3s)
+      F -->G{Btn 1 appuye}
+      G -->H(Led 8 Hz, 3s)
+      H -->I{Btn 1 appuye}
+      I -->B
+    
+  ```
+{{% /columns %}}
 
-  if (digitalRead(2) == HIGH){
-    temps=millis();
-    while( millis()<= (temps+interval)){
-        digitalWrite(3, HIGH);
-        delay(500);
-        digitalWrite(3, LOW);
-        delay(100);
-    }
-  }
-}
-
-```
 
 ## Exercice 4 🐛
 
@@ -203,7 +217,7 @@ void loop() {
 
 ## Exercice 6
 
-Vraiment la consigne est pas claire, ça ce vois que le gars qui a écrit ça a galéré\
+Bon, la consigne n'était pas claire\
 Donc on va imporvisé avec un truc qui me semble cohérent\
 Au programme ça sera donc chenillard qui change de sens avec le boutton\
 ¯\\_(ツ)_/¯
@@ -247,8 +261,8 @@ void loop() {
 
 ## Exercice 7
 
-Ok là ça devient un peu plus rogolo, on s'attaque aux fonctions logiques
-c'est à dire qu'on a :\
+Ok là ça devient un peu plus rigolo, on s'attaque aux fonctions logiques
+c'est à dire qu'on a :
 - 3 LED, respectivement les résultats de AND, OR, XOR 
 - 2 boutons pour les variables binaires
 
@@ -274,7 +288,7 @@ petits tableau récapitulatif de toute ces belles fonctions :
   |1|1|1|
   |1|0|1|
 
-- NOR
+- XOR
 
   |a|b|r|
   |-|-|-|
@@ -285,9 +299,72 @@ petits tableau récapitulatif de toute ces belles fonctions :
 
 {{% /columns %}}
 
+{{% details "Voici un lien" close %}}
+
+Il ne fonctionne pas très bien donc il s'est caché
+
+<a href="https://wokwi.com/projects/449795766844585985" target="_blank">{{{(>_<)}}}<a>
+
+L'idée c'était de proposé une simulation avec le pico
+{{% /details %}}
+
 
 ```C
-Bientôt disponible
+int a = 0;
+int b = 0;
+
+void setup() {
+  pinMode(26, OUTPUT);  // led 3 (and)
+  pinMode(27, OUTPUT);  // led 2 (or)
+  pinMode(28, OUTPUT);  // led 1 (xor)
+
+  pinMode(3, INPUT);    // btn A
+  pinMode(4, INPUT);    // btn B
+}
+
+void loop() {
+  if(digitalRead(3) == HIGH){
+    if (a == 1){
+      a = 0;
+    }else{
+      a = 1;
+    }
+  }
+
+  if(digitalRead(4) == HIGH){
+    if (b == 1 ){
+      b = 0;
+    }else{
+      b = 1;
+    }
+  }
+
+  // AND
+  if (a == 1 && b == 1){
+    digitalWrite(26, HIGH);
+  }else{
+    digitalWrite(26, LOW);
+  }
+
+  // OR
+  if (a == 0 && b == 0){
+    digitalWrite(27, LOW);
+  }else{
+    digitalWrite(27, HIGH);  
+  }
+
+  // XOR
+  if (a == b){
+    digitalWrite(28, LOW);  
+  }else{
+    digitalWrite(28, HIGH);  
+  }
+
+}
 
 ```
+
+
+
+
 

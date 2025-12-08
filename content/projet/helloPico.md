@@ -38,11 +38,11 @@ void loop() {
 
   Serial.println(i);
 
-  analogWrite(25, 50); 
+  digitalWrite(25, HIGH); 
   Serial.println(" Allume");
   delay(500);
 
-  digitalWrite(25, 0); 
+  digitalWrite(25, LOW); 
   Serial.println(" Eteint");
   delay(1000);
 
