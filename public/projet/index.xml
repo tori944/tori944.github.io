@@ -28,5 +28,12 @@
       <guid>http://localhost:1313/projet/projet2/</guid>
       <description>&lt;h1 id=&#34;bonjour-voici-mon-deuxième-projet&#34;&gt;Bonjour voici mon deuxième projet&lt;a class=&#34;anchor&#34; href=&#34;#bonjour-voici-mon-deuxi%c3%a8me-projet&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Mais il n&amp;rsquo;y a rien encore !&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Radio !</title>
+      <link>http://localhost:1313/projet/radio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projet/radio/</guid>
+      <description>&lt;h1 id=&#34;projet-radio&#34;&gt;Projet Radio&lt;a class=&#34;anchor&#34; href=&#34;#projet-radio&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;L&amp;rsquo;objectife de ce projet est de construir une radio avec les deux chipies ✨&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

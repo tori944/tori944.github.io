@@ -14,11 +14,15 @@
   </url><url>
     <loc>http://localhost:1313/projet/projet2/</loc>
   </url><url>
-    <loc>http://localhost:1313/tp-courswwaw/</loc>
+    <loc>http://localhost:1313/projet/radio/</loc>
   </url><url>
-    <loc>http://localhost:1313/tp-courswwaw/tp1/</loc>
+    <loc>http://localhost:1313/tp/tp_capteur/</loc>
   </url><url>
-    <loc>http://localhost:1313/tp-courswwaw/tp2/</loc>
+    <loc>http://localhost:1313/tp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tp/tp1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tp/tp2/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>

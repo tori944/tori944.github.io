@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
+Voici le fonctionnement du capteur (d’après les consignes):
+Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/tp/tp_capteur/">
+  <meta property="og:site_name" content="Tori">
+  <meta property="og:title" content="TP capteur CO2">
+  <meta property="og:description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
+Voici le fonctionnement du capteur (d’après les consignes):
+Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tp">
+
+
+  <meta itemprop="name" content="TP capteur CO2">
+  <meta itemprop="description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
+Voici le fonctionnement du capteur (d’après les consignes):
+Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp">
+  <meta itemprop="wordCount" content="359">
+
+<title>TP capteur CO2 | Tori</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/tp/tp_capteur/">
+<link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.8b51b15887f54a89b58ea798e77427e378ed67110f0caf26ee96f454a55cd9ea.js" integrity="sha256-i1GxWIf1Som1jqeY53Qn43jtZxEPDK8m7pb0VKVc2eo=" crossorigin="anonymous"></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-tp">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tori</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/brouillon/" class="">
+      Brouillons</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/idee/" class="">
+      Les Idées</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6af9fb9e0ae84ba52a61c86504551d63" class="toggle"  />
+    <label for="section-6af9fb9e0ae84ba52a61c86504551d63" class="flex">
+      <a href="/projet/" class="">
+        Les Projets</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/projet/hellopico/" class="">
+      Hello Pico</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/projet/projet0/" class="">
+      Projet 0</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/projet/projet2/" class="">
+      Projet 2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/projet/radio/" class="">
+      Radio !</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b686ce809ff6b64f16e4bf312ef7021d" class="toggle" checked />
+    <label for="section-b686ce809ff6b64f16e4bf312ef7021d" class="flex">
+      <a role="button" class="">
+        TP cours</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tp/tp_capteur/" class="active">
+      TP capteur CO2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tp/tp1/" class="">
+      TP_1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tp/tp2/" class="">
+      TP_2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>TP capteur CO2</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#tp-capteur-de-co2">TP capteur de CO2</a>
+      <ul>
+        <li><a href="#1-led-présence-de-tension">1. Led présence de tension</a></li>
+        <li><a href="#2-capteur">2. Capteur</a></li>
+        <li><a href="#3-seuil-de-déclanchement">3. Seuil de déclanchement</a></li>
+        <li><a href="#4-comparateur">4. Comparateur</a></li>
+        <li><a href="#5-la-suite-jai-pas-compris">5. la suite j&rsquo;ai pas compris</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="tp-capteur-de-co2">TP capteur de CO2<a class="anchor" href="#tp-capteur-de-co2">#</a></h1>
+<p>L&rsquo;objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d&rsquo;un seuil donné.</p>
+<p>Voici le fonctionnement du capteur (d&rsquo;après les consignes):</p>
+<ul>
+<li>Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air</li>
+<li>Cette tension sera alors comparée avec un seuil réglé par un potentiomètre.</li>
+<li>Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive</li>
+<li>Cette tension sera amplifiée par un transistor qui alimentera un relais</li>
+<li>Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint.</li>
+<li>Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur.</li>
+<li>Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V.</li>
+</ul>
+<p><img src="../../image/principe_fonctionnement_capteur_co2.png" alt="" />
+<em>source : pdf consigne du tp</em></p>
+<h2 id="1-led-présence-de-tension">1. Led présence de tension<a class="anchor" href="#1-led-pr%c3%a9sence-de-tension">#</a></h2>
+<p>Pour ce faire, nous commençons par ajouter un <strong>régulateur de tension 5V</strong>.</p>
+<div class="book-columns">
+<ul>
+<li>
+<p><img src="../../image/regul5v.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p>Ce composant e trois broches :</p>
+<ul>
+<li>la première pour le +</li>
+<li>la deuxième pour le -</li>
+<li>la troisième pour la sortie de la tension ainsi régulé.</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>En sortie on ajoute une résistance et une led afin de signifié que le courant passe bien.</p>
+<h2 id="2-capteur">2. Capteur<a class="anchor" href="#2-capteur">#</a></h2>
+<div class="book-columns">
+<ul>
+<li>
+<p>On alimente le capteur avec la sortie du regulateur (borne vcc) sans oublier de relier la borne negative de ce dernier avec celle du circuit.</p>
+</li>
+<li>
+<p><img src="../../image/capteur_gaz.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+</ul>
+</div>
+<p>La sortie du capteur est celle de la broche A0. C&rsquo;est unne tension qui dépend du niveau de co2.</p>
+<h2 id="3-seuil-de-déclanchement">3. Seuil de déclanchement<a class="anchor" href="#3-seuil-de-d%c3%a9clanchement">#</a></h2>
+<p>Afin de modulé un seuil de déclanchement nous allons utilisé un <strong>potentiomètre</strong>, ce qui correspond à une resistance variable.</p>
+<div class="book-columns">
+<ul>
+<li>
+<p><img src="../../image/po.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p>Comme les autres composant utilisé, un potentiomètre possède trois patte : +, sortie et -.</p>
+</li>
+</ul>
+</div>
+<p>Le seuil de déclanchemant choisi sera alors une tension. Lorsque la sortie du détecteur atteint cette tention nous voulons le déclanchement du système.</p>
+<h2 id="4-comparateur">4. Comparateur<a class="anchor" href="#4-comparateur">#</a></h2>
+<p>Nous allons utilisé un amplificateur opérationnel du nom de <strong>LM 358</strong> pour comparer ces deux tentions.</p>
+<div class="book-columns">
+<ul>
+<li>
+<p>il y a 8 broches :</p>
+<ul>
+<li>2 pour + et -</li>
+<li>3 * 2 pour deux comparateurs (deux entrée et une sortie)</li>
+</ul>
+</li>
+<li>
+<p><img src="../../image/lm358.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+</ul>
+</div>
+<h2 id="5-la-suite-jai-pas-compris">5. la suite j&rsquo;ai pas compris<a class="anchor" href="#5-la-suite-jai-pas-compris">#</a></h2>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+  
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/projet/radio/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Radio !</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/tp/tp1/" class="flex align-center">
+        <span>TP_1</span>
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#tp-capteur-de-co2">TP capteur de CO2</a>
+      <ul>
+        <li><a href="#1-led-présence-de-tension">1. Led présence de tension</a></li>
+        <li><a href="#2-capteur">2. Capteur</a></li>
+        <li><a href="#3-seuil-de-déclanchement">3. Seuil de déclanchement</a></li>
+        <li><a href="#4-comparateur">4. Comparateur</a></li>
+        <li><a href="#5-la-suite-jai-pas-compris">5. la suite j&rsquo;ai pas compris</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
