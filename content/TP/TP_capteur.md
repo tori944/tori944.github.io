@@ -20,7 +20,7 @@ Voici le fonctionnement du capteur (d'après les consignes):
 - Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur.
 - Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V.
 
-![](../../image/principe_fonctionnement_capteur_co2.png)
+![](../../image/principe_fonctionnement_capteur_co2.jpg)
 _source : pdf consigne du tp_
 
 ## 1. Led présence de tension
