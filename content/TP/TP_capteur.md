@@ -93,7 +93,7 @@ _source : personnelle_
 
 ## 5. Amplification
 
-Nous allons utilisé un transistor NPN le **BC237B** pour amplifier le signal vers le relais. 
+Nous allons utilisé un transistor NPN le **BC237B** pour amplifier le signal vers le relais. Le transistor sera utilisé en mode interupteur
 
 {{% Columns %}}
 
@@ -121,3 +121,36 @@ Un relais permet de fermé un circuit independant.
 _source : personnelle_
 
 {{% /Columns %}}
+
+## 7. autres éléments
+
+{{% Columns %}}
+
+- ![](../../image/led.jpg)
+_source : personnelle_
+
+- ![](../../image/resistance.jpg)
+_source : personnelle_
+
+- Nous utiliserons aussi des leds et resistances pour indiquer des informations.
+
+{{% /Columns %}}
+
+{{% Columns %}}
+
+- ![](../../image/condensateur.jpg)
+_source : personnelle_
+
+    condensateur en début de circuit
+
+- ![](../../image/diode.jpg)
+_source : personnelle_
+
+    diode
+
+
+
+{{% /Columns %}}
+
+
+

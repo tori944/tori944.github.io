@@ -29,7 +29,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
   <meta itemprop="description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
 Voici le fonctionnement du capteur (d’après les consignes):
 Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp">
-  <meta itemprop="wordCount" content="418">
+  <meta itemprop="wordCount" content="457">
 
 <title>TP capteur CO2 | Tori</title>
 <link rel="icon" href="/favicon.png" >
@@ -39,7 +39,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.f872152eaf00a3e69e7a71e177ef4719e8d2c4151c4aa0b661cf8cfd43350f1f.js" integrity="sha256-&#43;HIVLq8Ao&#43;aeenHhd&#43;9HGejSxBUcSqC2Yc&#43;M/UM1Dx8=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.dcaf3c1a9443d6cdd49f0af30bf5c0b40f30b62a22c1cc4675afdd4be0a58c86.js" integrity="sha256-3K88GpRD1s3UnwrzC/XAtA8wtioiwcxGda/dS&#43;CljIY=" crossorigin="anonymous"></script>
 
 
 
@@ -328,6 +328,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
         <li><a href="#4-comparateur">4. Comparateur</a></li>
         <li><a href="#5-amplification">5. Amplification</a></li>
         <li><a href="#6-relais">6. Relais</a></li>
+        <li><a href="#7-autres-éléments">7. autres éléments</a></li>
       </ul>
     </li>
   </ul>
@@ -420,7 +421,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 </ul>
 </div>
 <h2 id="5-amplification">5. Amplification<a class="anchor" href="#5-amplification">#</a></h2>
-<p>Nous allons utilisé un transistor NPN le <strong>BC237B</strong> pour amplifier le signal vers le relais.</p>
+<p>Nous allons utilisé un transistor NPN le <strong>BC237B</strong> pour amplifier le signal vers le relais. Le transistor sera utilisé en mode interupteur</p>
 <div class="book-columns">
 <ul>
 <li>
@@ -451,6 +452,36 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 <li>
 <p><img src="../../image/relay.jpg" alt="" />
 <em>source : personnelle</em></p>
+</li>
+</ul>
+</div>
+<h2 id="7-autres-éléments">7. autres éléments<a class="anchor" href="#7-autres-%c3%a9l%c3%a9ments">#</a></h2>
+<div class="book-columns">
+<ul>
+<li>
+<p><img src="../../image/led.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p><img src="../../image/resistance.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p>Nous utiliserons aussi des leds et resistances pour indiquer des informations.</p>
+</li>
+</ul>
+</div>
+<div class="book-columns">
+<ul>
+<li>
+<p><img src="../../image/condensateur.jpg" alt="" />
+<em>source : personnelle</em></p>
+<p>condensateur en début de circuit</p>
+</li>
+<li>
+<p><img src="../../image/diode.jpg" alt="" />
+<em>source : personnelle</em></p>
+<p>diode</p>
 </li>
 </ul>
 </div>
@@ -541,6 +572,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
         <li><a href="#4-comparateur">4. Comparateur</a></li>
         <li><a href="#5-amplification">5. Amplification</a></li>
         <li><a href="#6-relais">6. Relais</a></li>
+        <li><a href="#7-autres-éléments">7. autres éléments</a></li>
       </ul>
     </li>
   </ul>
