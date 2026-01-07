@@ -29,7 +29,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
   <meta itemprop="description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
 Voici le fonctionnement du capteur (d’après les consignes):
 Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp">
-  <meta itemprop="wordCount" content="359">
+  <meta itemprop="wordCount" content="418">
 
 <title>TP capteur CO2 | Tori</title>
 <link rel="icon" href="/favicon.png" >
@@ -39,7 +39,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.7520bf62fecb06175ff238b4397d33a0d3a29a2a44ba20c3fd0fcf6d67b97571.js" integrity="sha256-dSC/Yv7LBhdf8ji0OX0zoNOimipEuiDD/Q/PbWe5dXE=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.f872152eaf00a3e69e7a71e177ef4719e8d2c4151c4aa0b661cf8cfd43350f1f.js" integrity="sha256-&#43;HIVLq8Ao&#43;aeenHhd&#43;9HGejSxBUcSqC2Yc&#43;M/UM1Dx8=" crossorigin="anonymous"></script>
 
 
 
@@ -134,7 +134,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
   
     <input type="checkbox" id="section-6af9fb9e0ae84ba52a61c86504551d63" class="toggle"  />
     <label for="section-6af9fb9e0ae84ba52a61c86504551d63" class="flex">
-      <a href="/projet/" class="">
+      <a role="button" class="">
         Les Projets</a>
       <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
@@ -326,7 +326,8 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
         <li><a href="#2-capteur">2. Capteur</a></li>
         <li><a href="#3-seuil-de-déclanchement">3. Seuil de déclanchement</a></li>
         <li><a href="#4-comparateur">4. Comparateur</a></li>
-        <li><a href="#5-la-suite-jai-pas-compris">5. la suite j&rsquo;ai pas compris</a></li>
+        <li><a href="#5-amplification">5. Amplification</a></li>
+        <li><a href="#6-relais">6. Relais</a></li>
       </ul>
     </li>
   </ul>
@@ -418,7 +419,41 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 </li>
 </ul>
 </div>
-<h2 id="5-la-suite-jai-pas-compris">5. la suite j&rsquo;ai pas compris<a class="anchor" href="#5-la-suite-jai-pas-compris">#</a></h2>
+<h2 id="5-amplification">5. Amplification<a class="anchor" href="#5-amplification">#</a></h2>
+<p>Nous allons utilisé un transistor NPN le <strong>BC237B</strong> pour amplifier le signal vers le relais.</p>
+<div class="book-columns">
+<ul>
+<li>
+<p><img src="../../image/transistor.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p>il y a 3 broches :</p>
+<ul>
+<li>Emeteur</li>
+<li>Base</li>
+<li>Collecteur</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="6-relais">6. Relais<a class="anchor" href="#6-relais">#</a></h2>
+<p>Un relais permet de fermé un circuit independant.</p>
+<div class="book-columns">
+<ul>
+<li>
+<p>il y a 5 broches :</p>
+<ul>
+<li>2 pour l&rsquo;entré et sortie du permier circuit</li>
+<li>3 pour l&rsquo;entré et deux sorties du second circuit</li>
+</ul>
+</li>
+<li>
+<p><img src="../../image/relay.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+</ul>
+</div>
 </article>
  
       
@@ -504,7 +539,8 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
         <li><a href="#2-capteur">2. Capteur</a></li>
         <li><a href="#3-seuil-de-déclanchement">3. Seuil de déclanchement</a></li>
         <li><a href="#4-comparateur">4. Comparateur</a></li>
-        <li><a href="#5-la-suite-jai-pas-compris">5. la suite j&rsquo;ai pas compris</a></li>
+        <li><a href="#5-amplification">5. Amplification</a></li>
+        <li><a href="#6-relais">6. Relais</a></li>
       </ul>
     </li>
   </ul>

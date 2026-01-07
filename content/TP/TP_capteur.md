@@ -91,5 +91,33 @@ _source : personnelle_
 
 {{% /Columns %}}
 
-## 5. la suite j'ai pas compris
+## 5. Amplification
 
+Nous allons utilisé un transistor NPN le **BC237B** pour amplifier le signal vers le relais. 
+
+{{% Columns %}}
+
+- ![](../../image/transistor.jpg)
+_source : personnelle_
+
+- il y a 3 broches :
+    - Emeteur
+    - Base
+    - Collecteur
+
+{{% /Columns %}}
+
+## 6. Relais
+
+Un relais permet de fermé un circuit independant. 
+
+{{% Columns %}}
+
+- il y a 5 broches :
+    - 2 pour l'entré et sortie du permier circuit
+    - 3 pour l'entré et deux sorties du second circuit
+
+- ![](../../image/relay.jpg)
+_source : personnelle_
+
+{{% /Columns %}}

@@ -5,7 +5,6 @@ bookCollapseSection: true
 title: "Les Projets"
 ---
 
-# Les projets
 
 
 

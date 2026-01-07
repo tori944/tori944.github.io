@@ -29,6 +29,8 @@ Voici la liste :
     - \+ bot ?
 - led comme capteur de lumière
 - utiliser le Pico ePaper
+- kali test outil
+- metal detector
 
 
 
