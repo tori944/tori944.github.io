@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:59710/brouillon/</loc>
+  </url><url>
+    <loc>http://localhost:59710/projet/hellopico/</loc>
+  </url><url>
+    <loc>http://localhost:59710/idee/</loc>
+  </url><url>
+    <loc>http://localhost:59710/projet/</loc>
+  </url><url>
+    <loc>http://localhost:59710/projet/projet0/</loc>
+  </url><url>
+    <loc>http://localhost:59710/projet/projet2/</loc>
+  </url><url>
+    <loc>http://localhost:59710/projet/radio/</loc>
+  </url><url>
+    <loc>http://localhost:59710/tp/tp_capteur/</loc>
+  </url><url>
+    <loc>http://localhost:59710/tp/</loc>
+  </url><url>
+    <loc>http://localhost:59710/tp/tp1/</loc>
+  </url><url>
+    <loc>http://localhost:59710/tp/tp2/</loc>
+  </url><url>
+    <loc>http://localhost:59710/</loc>
+  </url><url>
+    <loc>http://localhost:59710/categories/</loc>
+  </url><url>
+    <loc>http://localhost:59710/tags/</loc>
+  </url>
+</urlset>
