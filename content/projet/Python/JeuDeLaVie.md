@@ -5,7 +5,7 @@ title: "Jeu de la vie"
 ---
 # Jeu de la vie en python
 
-## Introdiction
+## Introduction
 
 Le jeu de la vie à été créé par le mathematicien John Horton Conway en 1970.
 Il s'agit d'une simulation la plus simple possible de cellules mortes ou vivante.
@@ -17,3 +17,4 @@ Sur un plan en 2 dimensions theoriquement infini, nous avons deux règles simpes
 ## réalisation
 
 J'utilise le module python tkinter pour l'interface grafique.
+

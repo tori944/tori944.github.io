@@ -16,10 +16,10 @@
     </item>
     <item>
       <title>Jeu de la vie</title>
-      <link>http://localhost:1313/projet/jeudelavie/</link>
+      <link>http://localhost:1313/projet/python/jeudelavie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projet/jeudelavie/</guid>
-      <description>&lt;h1 id=&#34;jeu-de-la-vie-en-python&#34;&gt;Jeu de la vie en python&lt;a class=&#34;anchor&#34; href=&#34;#jeu-de-la-vie-en-python&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;introdiction&#34;&gt;Introdiction&lt;a class=&#34;anchor&#34; href=&#34;#introdiction&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Le jeu de la vie à été créé par le mathematicien John Horton Conway en 1970.&#xA;Il s&amp;rsquo;agit d&amp;rsquo;une simulation la plus simple possible de cellules mortes ou vivante.&lt;/p&gt;&#xA;&lt;p&gt;Sur un plan en 2 dimensions theoriquement infini, nous avons deux règles simpes :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;une cellule morte devient vivante si elle possède 3 voisines vivantes&lt;/li&gt;&#xA;&lt;li&gt;une cellule vivante reste vivante si elle possède 2 ou 3 voisine vivante, sinon elle meure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;réalisation&#34;&gt;réalisation&lt;a class=&#34;anchor&#34; href=&#34;#r%c3%a9alisation&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;J&amp;rsquo;utilise le module python tkinter pour l&amp;rsquo;interface grafique.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projet/python/jeudelavie/</guid>
+      <description>&lt;h1 id=&#34;jeu-de-la-vie-en-python&#34;&gt;Jeu de la vie en python&lt;a class=&#34;anchor&#34; href=&#34;#jeu-de-la-vie-en-python&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Le jeu de la vie à été créé par le mathematicien John Horton Conway en 1970.&#xA;Il s&amp;rsquo;agit d&amp;rsquo;une simulation la plus simple possible de cellules mortes ou vivante.&lt;/p&gt;&#xA;&lt;p&gt;Sur un plan en 2 dimensions theoriquement infini, nous avons deux règles simpes :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;une cellule morte devient vivante si elle possède 3 voisines vivantes&lt;/li&gt;&#xA;&lt;li&gt;une cellule vivante reste vivante si elle possède 2 ou 3 voisine vivante, sinon elle meure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;réalisation&#34;&gt;réalisation&lt;a class=&#34;anchor&#34; href=&#34;#r%c3%a9alisation&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;J&amp;rsquo;utilise le module python tkinter pour l&amp;rsquo;interface grafique.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projet 0</title>
@@ -62,6 +62,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tp/tp2/</guid>
       <description>&lt;p&gt;Bonjour voici la page du&lt;/p&gt;&#xA;&lt;p&gt;TP22222222222222&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Démineur</title>
+      <link>http://localhost:1313/projet/python/d%C3%A9mineur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projet/python/d%C3%A9mineur/</guid>
+      <description>&lt;h1 id=&#34;démineur&#34;&gt;Démineur&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9mineur&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;a class=&#34;book-btn&#34;href=&#34;https://github.com/tori944/D-mineur&#34;rel=&#34;noopener&#34;target=&#34;_blank&#34;&gt;Voir le code GitHub&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Snake</title>
+      <link>http://localhost:1313/projet/python/snake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projet/python/snake/</guid>
+      <description>&lt;h1 id=&#34;snake&#34;&gt;Snake&lt;a class=&#34;anchor&#34; href=&#34;#snake&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;a class=&#34;book-btn&#34;href=&#34;https://github.com/tori944/Snake&#34;rel=&#34;noopener&#34;target=&#34;_blank&#34;&gt;Voir le code GitHub&lt;/a&gt;</description>
     </item>
   </channel>
 </rss>
