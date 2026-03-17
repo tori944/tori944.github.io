@@ -12,9 +12,11 @@ Pour faire ce site j'ai utilisé le framwork Hugo qui est un générateur de sit
 
 {{<button href="https://gohugo.io/">}}Site Hugo{{</button>}}
 
-C'est censé être simpe mais je n'y comprends pas grand chose pour le moment :/
-
-Mais je vais apprendre, çe monde à l'air si vaste ! 
+Afin d'utiliser ce framwork, nous avons besoin de :
+- go
+- git
+- dart sass
+- chocolatly
 
 ## 2 : Hébergement
 
