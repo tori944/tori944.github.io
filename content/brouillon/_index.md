@@ -2,6 +2,7 @@
 weight: 1
 bookFlatSection: true
 title: "Brouillons"
+bookHidden: true
 ---
 
 # Les Brouillons

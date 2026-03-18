@@ -2,6 +2,7 @@
 weight: 1
 bookFlatSection: true
 title: "Les Idées"
+bookHidden: true
 ---
 
 # Les Idées
