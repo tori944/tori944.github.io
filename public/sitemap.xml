@@ -6,8 +6,6 @@
   </url><url>
     <loc>http://localhost:1313/projet/hellopico/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/python/jeudelavie/</loc>
-  </url><url>
     <loc>http://localhost:1313/idee/</loc>
   </url><url>
     <loc>http://localhost:1313/projet/</loc>
@@ -32,11 +30,7 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/python/d%C3%A9mineur/</loc>
-  </url><url>
     <loc>http://localhost:1313/projet/python/pixelgame/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projet/python/snake/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
