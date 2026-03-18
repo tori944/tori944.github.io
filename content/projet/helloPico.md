@@ -6,18 +6,11 @@ title: "Hello Pico"
 
 # Minis programmes Pour Raspbery Pi Pico
 
-
-
-
-
-
 ![Le Pico](../../image/pico.jpg "le Pico")
 _source : personnelle_
 
 
-
-
-L'équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoté la led integré !
+L'équivalent du célèbre Hello World avec des microcontroleurs serait sans doute de faire clignoter la led intégré !
 
 
 

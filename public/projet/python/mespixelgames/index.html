@@ -8,25 +8,25 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Pixel Games#Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d’écrire.
-Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.
+<meta name="description" content="Pixel Games#Vous trouverez dans cet article la réalisation de trois jeux en python avec le module intégré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permettant de dessiner et d’écrire.
+Création des jeux#1 : Jeu de la vie#Introduction#Le jeu de la vie à été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/python/mespixelgames/">
   <meta property="og:site_name" content="Tori">
   <meta property="og:title" content="Pixel Games">
-  <meta property="og:description" content="Pixel Games#Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d’écrire.
-Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.">
+  <meta property="og:description" content="Pixel Games#Vous trouverez dans cet article la réalisation de trois jeux en python avec le module intégré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permettant de dessiner et d’écrire.
+Création des jeux#1 : Jeu de la vie#Introduction#Le jeu de la vie à été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projet">
 
 
   <meta itemprop="name" content="Pixel Games">
-  <meta itemprop="description" content="Pixel Games#Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d’écrire.
-Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.">
-  <meta itemprop="wordCount" content="526">
+  <meta itemprop="description" content="Pixel Games#Vous trouverez dans cet article la réalisation de trois jeux en python avec le module intégré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permettant de dessiner et d’écrire.
+Création des jeux#1 : Jeu de la vie#Introduction#Le jeu de la vie à été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.">
+  <meta itemprop="wordCount" content="527">
 
 <title>Pixel Games | Tori</title>
 <link rel="icon" href="/favicon.png" >
@@ -36,7 +36,7 @@ Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été 
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.8945667b57e7396a27d91b505e095a134fd17003f8a18f3594b857c66a9b959e.js" integrity="sha256-iUVme1fnOWon2RtQXglaE0/RcAP4oY81lLhXxmqblZ4=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.d711b1ddde75a12e675216fc05b8baa03d462b6e7f1517289c24603989d76358.js" integrity="sha256-1xGx3d51oS5nUhb8Bbi6oD1GK25/FRconCRgOYnXY1g=" crossorigin="anonymous"></script>
 
 
 
@@ -291,7 +291,7 @@ Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été 
     <li><a href="#pixel-games">Pixel Games</a></li>
     <li><a href="#création-des-jeux">Création des jeux</a>
       <ul>
-        <li><a href="#1--jeux-de-la-vie">1 : Jeux de la vie</a>
+        <li><a href="#1--jeu-de-la-vie">1 : Jeu de la vie</a>
           <ul>
             <li><a href="#introduction">Introduction</a></li>
             <li><a href="#réalisation">Réalisation</a></li>
@@ -326,22 +326,22 @@ Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été 
       
       
   <article class="markdown book-article"><h1 id="pixel-games">Pixel Games<a class="anchor" href="#pixel-games">#</a></h1>
-<p>Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré <a href="https://docs.python.org/3.15/library/tkinter.html" target="_blank">Tkinter</a>. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d&rsquo;écrire.</p>
+<p>Vous trouverez dans cet article la réalisation de trois jeux en python avec le module intégré <a href="https://docs.python.org/3.15/library/tkinter.html" target="_blank">Tkinter</a>. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permettant de dessiner et d&rsquo;écrire.</p>
 <h1 id="création-des-jeux">Création des jeux<a class="anchor" href="#cr%c3%a9ation-des-jeux">#</a></h1>
-<h2 id="1--jeux-de-la-vie">1 : Jeux de la vie<a class="anchor" href="#1--jeux-de-la-vie">#</a></h2>
+<h2 id="1--jeu-de-la-vie">1 : Jeu de la vie<a class="anchor" href="#1--jeu-de-la-vie">#</a></h2>
 <h3 id="introduction">Introduction<a class="anchor" href="#introduction">#</a></h3>
-<p>Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970.
+<p>Le jeu de la vie à été créé par le mathématicien John Horton Conway en 1970.
 Il s&rsquo;agit d&rsquo;une <strong>simulation</strong> la plus simple possible de cellules mortes ou vivantes.</p>
 <p>Sur un plan en 2 dimensions théoriquement infini, nous avons deux règles :</p>
 <ul>
 <li>une <strong>cellule morte</strong> devient vivante si elle possède 3 voisines vivantes</li>
-<li>une <strong>cellule vivante</strong> reste vivante si elle possède 2 ou 3 voisine vivantes, sinon elle meurt</li>
+<li>une <strong>cellule vivante</strong> reste vivante si elle possède 2 ou 3 voisines vivantes, sinon elle meurt</li>
 </ul>
-<p>Ce programme fonctionnant par génération fait partie de la catégorie des jeux à 0 joueur, même si nous pouvons néanmoins interagir avec les cellules.</p>
+<p>Ce programme, fonctionnant par génération, fait partie de la catégorie des jeux à 0 joueur, même si nous pouvons néanmoins interagir avec les cellules.</p>
 <h3 id="réalisation">Réalisation<a class="anchor" href="#r%c3%a9alisation">#</a></h3>
-<p>Tout le projet s&rsquo;articule autour de la <strong>classe Cellule</strong>. Cette dernière permet de créer des objets cellule représentés par des rectangles pouvant passés de l&rsquo;état 0 (mort) à l&rsquo;état 1 (vivant) selon les lois vues précédemment.</p>
-<p>Un premier fichier permet d&rsquo;initaliser la fenêtre, le canvas et differentes variables comme le nombre de colonnes de cellules souhaité</p>
-<p>Un dernier fichier (noté main.py) a pour rôle de créer tous les objets cellule dans le canvas, créer les différents boutons de la fenêtre ainsi que leur fonction associée. C&rsquo;est ce dernier programme que nous devons exécuter pour faire tourner notre jeu</p>
+<p>Tout le projet s&rsquo;articule autour de la <strong>classe Cellule</strong>. Cette dernière permet de créer des objets cellule représentées par des rectangles pouvant passés de l&rsquo;état 0 (mort) à l&rsquo;état 1 (vivant) selon les lois vues précédemment.</p>
+<p>Un premier fichier permet d&rsquo;initialiser la fenêtre, le canvas et différentes variables comme le nombre de colonnes de cellules souhaité.</p>
+<p>Un dernier fichier (noté main.py) a pour rôle de créer tous les objets cellule dans le canvas, créer les différents boutons de la fenêtre ainsi que leur fonction associée. C&rsquo;est ce dernier programme que nous devons exécuter pour faire tourner notre jeu.</p>
 <a class="book-btn"href="https://github.com/tori944/Jeu-de-la-vie"rel="noopener"target="_blank">Voir le code sur GitHub</a>
 <p>Image de la fenêtre de jeu :
 <img src="../../../image/JdlV.png" alt="Mon Jeu de la Vie" title="mon jeu de la vie"/>
@@ -349,10 +349,10 @@ Il s&rsquo;agit d&rsquo;une <strong>simulation</strong> la plus simple possible 
 <h2 id="2--démineur">2 : Démineur<a class="anchor" href="#2--d%c3%a9mineur">#</a></h2>
 <h3 id="introduction-1">Introduction<a class="anchor" href="#introduction-1">#</a></h3>
 <p>Le démineur fut <strong>l&rsquo;un des premiers jeux sur ordinateur</strong>, voyant le jour dans les années 1960 et 1970.</p>
-<p>Le but du joueur face à cette grille est de <strong>localiser les bombes</strong> qui s&rsquo;y cachent. Pour cela, les cases saines (cases vertes) lui procurent comme indice le nombre de bombes dans leur voisines directes. Afin de les repérer et d&rsquo;éviter de cliquer dessus, il est possible de placer des drapeaux (cases orange).</p>
+<p>Le but du joueur face à cette grille est de <strong>localiser les bombes</strong> qui s&rsquo;y cachent. Pour cela, les cases saines (cases vertes) lui procurent comme indice le nombre de bombes dans leurs voisines directes. Afin de les repérer et d&rsquo;éviter de cliquer dessus, il est possible de placer des drapeaux (cases orange).</p>
 <p>Lorsque toutes les cases saines sont découvertes, c&rsquo;est gagné !</p>
 <h3 id="réalisation-1">Réalisation<a class="anchor" href="#r%c3%a9alisation-1">#</a></h3>
-<p>Sur la même base que le jeu précedant. Ce programme fonctionne de même avec des objets Cellule régies par les lois propres à ce jeu.</p>
+<p>Sur la même base que le jeu précédant. Ce programme fonctionne de même avec des objets Cellule régies par les lois propres à ce jeu.</p>
 <a class="book-btn"href="https://github.com/tori944/D-mineur"rel="noopener"target="_blank">Voir le code sur GitHub</a>
 <p>Image de la fenêtre de jeu :
 <img src="../../../image/Dmin.png" alt="Mon Démineur" title="mon démineur"/>
@@ -362,7 +362,7 @@ Il s&rsquo;agit d&rsquo;une <strong>simulation</strong> la plus simple possible 
 <p>Snake est un jeu provenant de <strong>bornes d&rsquo;arcades</strong> en 1976 développé par Gremlin Industries.</p>
 <p>Le but de ce jeu est de contrôler un serpent pouvant grandir en avalant des pommes. Tout en faisant attention de ne pas se cogner ni aux bords de l&rsquo;écran de jeu, ni à lui-même</p>
 <h3 id="réalisation-2">Réalisation<a class="anchor" href="#r%c3%a9alisation-2">#</a></h3>
-<p>Sur la même structure que les programmes précedents</p>
+<p>Sur la même structure que les programmes précédents</p>
 <a class="book-btn"href="https://github.com/tori944/Snake"rel="noopener"target="_blank">Voir le code sur GitHub</a>
 <p>Image de la fenêtre de jeu :
 <img src="../../../image/snake.png" alt="Mon Snake" title="mon snake"/>
@@ -370,9 +370,9 @@ Il s&rsquo;agit d&rsquo;une <strong>simulation</strong> la plus simple possible 
 <h1 id="bac-à-sable">Bac à sable<a class="anchor" href="#bac-%c3%a0-sable">#</a></h1>
 <p>Le but du bac à sable n&rsquo;est pas de créer un jeu comme pour les programmes passés, mais un cadre de travail pour ajouter et créer des jeux.</p>
 <p>Ce programme sert donc à créer une interface avec des boutons et une matrice de pixels dans le but final de réunir les trois précédents jeux dans une seule application.</p>
-<p>en construction !</p>
+<p>En construction !</p>
 <h1 id="application-commune">application commune<a class="anchor" href="#application-commune">#</a></h1>
-<p>en construction !</p>
+<p>En construction !</p>
 </article>
  
       
@@ -455,7 +455,7 @@ Il s&rsquo;agit d&rsquo;une <strong>simulation</strong> la plus simple possible 
     <li><a href="#pixel-games">Pixel Games</a></li>
     <li><a href="#création-des-jeux">Création des jeux</a>
       <ul>
-        <li><a href="#1--jeux-de-la-vie">1 : Jeux de la vie</a>
+        <li><a href="#1--jeu-de-la-vie">1 : Jeu de la vie</a>
           <ul>
             <li><a href="#introduction">Introduction</a></li>
             <li><a href="#réalisation">Réalisation</a></li>

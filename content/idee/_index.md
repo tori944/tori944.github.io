@@ -25,7 +25,7 @@ Voici la liste :
 - luminosité led integrer pico ?
 - R Pico avec vs code en C et microPython
 - bras de robot
-- jeu de la vie
+- jeu de la vie ✅
 - jeu du démineur ✅
 - jeu du solitaire
     - \+ bot ?
@@ -33,6 +33,9 @@ Voici la liste :
 - utiliser le Pico ePaper
 - kali test outil
 - metal detector
+- olimex eduardu
+- application Django
+- petit article sur orca
 
 
 

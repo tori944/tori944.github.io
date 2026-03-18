@@ -18,7 +18,7 @@ Afin d'utiliser ce framwork, nous avons besoin de :
 
 ## 2 : Hébergement
 
-J'utilise git hub pages pour un hébergement gratuit
+J'utilise gitHub pages pour un hébergement gratuit
 
 {{<button href="https://github.com/tori944">}}Mon GitHub{{</button>}}
 
