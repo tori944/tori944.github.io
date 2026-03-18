@@ -7,7 +7,7 @@ bookHidden: true
 
 # Les Brouillons
 
-Bonjour voici la page concacré à n'importe quoi 
+Bonjour voici la page concacré au test de code
 
 {{< katex display=true >}}
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
