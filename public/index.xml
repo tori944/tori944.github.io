@@ -44,9 +44,9 @@
     </item>
     <item>
       <title>Pixel Games</title>
-      <link>http://localhost:1313/projet/python/pixelgames/</link>
+      <link>http://localhost:1313/projet/python/mespixelgames/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projet/python/pixelgames/</guid>
+      <guid>http://localhost:1313/projet/python/mespixelgames/</guid>
       <description>&lt;h1 id=&#34;pixel-games&#34;&gt;Pixel Games&lt;a class=&#34;anchor&#34; href=&#34;#pixel-games&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré &lt;a href=&#34;https://docs.python.org/3.15/library/tkinter.html&#34; target=&#34;_blank&#34;&gt;Tkinter&lt;/a&gt;. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d&amp;rsquo;écrire.&lt;/p&gt;&#xA;&lt;h1 id=&#34;création-des-jeux&#34;&gt;Création des jeux&lt;a class=&#34;anchor&#34; href=&#34;#cr%c3%a9ation-des-jeux&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;1--jeux-de-la-vie&#34;&gt;1 : Jeux de la vie&lt;a class=&#34;anchor&#34; href=&#34;#1--jeux-de-la-vie&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970.&#xA;Il s&amp;rsquo;agit d&amp;rsquo;une &lt;strong&gt;simulation&lt;/strong&gt; la plus simple possible de cellules mortes ou vivantes.&lt;/p&gt;</description>
     </item>
   </channel>

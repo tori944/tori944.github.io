@@ -18,7 +18,7 @@ Vous trouverz dans le menu la liste de tout mes articles concrnant mes projets !
     {{< /card >}}
 
 -   {{< card >}}
-    ## [Jeux en python](../../projet/Python/pixelgames)
+    ## [Jeux en python](../projet/Python/MesPixelGames)
     Voici comment j'ai codé le jeux de la vie, le démineur et snake en python avec Tkinter
     {{< /card >}}
 

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pixel Games#Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d’écrire.
+Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/python/mespixelgames/">
+  <meta property="og:site_name" content="Tori">
+  <meta property="og:title" content="Pixel Games">
+  <meta property="og:description" content="Pixel Games#Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d’écrire.
+Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projet">
+
+
+  <meta itemprop="name" content="Pixel Games">
+  <meta itemprop="description" content="Pixel Games#Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré Tkinter. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d’écrire.
+Création des jeux#1 : Jeux de la vie#Introduction#Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970. Il s’agit d’une simulation la plus simple possible de cellules mortes ou vivantes.">
+  <meta itemprop="wordCount" content="526">
+
+<title>Pixel Games | Tori</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/projet/python/mespixelgames/">
+<link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.aff2ccf6287de971f61a596eefc6d013da224469e8cb9d347a64622aafe26ba0.js" integrity="sha256-r/LM9ih96XH2Gllu78bQE9oiRGnoy500emRiKq/ia6A=" crossorigin="anonymous"></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-projet">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tori</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-aa1458f4cc2a7da73305b19e7a3d3ed4" class="toggle" checked />
+    <label for="section-aa1458f4cc2a7da73305b19e7a3d3ed4" class="flex">
+      <a href="/projet/" class="">
+        Les Projets</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/projet/hellopico/" class="">
+      Hello Pico</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/projet/projet0/" class="">
+      Projet 0</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1b4fe838cab73ab18eb4c5f9a80d89e6" class="toggle" checked />
+    <label for="section-1b4fe838cab73ab18eb4c5f9a80d89e6" class="flex">
+      <a role="button" class="">
+        Python</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/projet/python/mespixelgames/" class="active">
+      Pixel Games</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f2df88b60e2578ba2c3f5dddfd7c9f0d" class="toggle"  />
+    <label for="section-f2df88b60e2578ba2c3f5dddfd7c9f0d" class="flex">
+      <a role="button" class="">
+        TP cours</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tp/tp_capteur/" class="">
+      TP capteur CO2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tp/tp1/" class="">
+      TP_1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tp/tp2/" class="">
+      TP_2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Pixel Games</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#pixel-games">Pixel Games</a></li>
+    <li><a href="#création-des-jeux">Création des jeux</a>
+      <ul>
+        <li><a href="#1--jeux-de-la-vie">1 : Jeux de la vie</a>
+          <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#réalisation">Réalisation</a></li>
+          </ul>
+        </li>
+        <li><a href="#2--démineur">2 : Démineur</a>
+          <ul>
+            <li><a href="#introduction-1">Introduction</a></li>
+            <li><a href="#réalisation-1">Réalisation</a></li>
+          </ul>
+        </li>
+        <li><a href="#3--snake">3 : Snake</a>
+          <ul>
+            <li><a href="#introduction-2">Introduction</a></li>
+            <li><a href="#réalisation-2">Réalisation</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#bac-à-sable">Bac à sable</a></li>
+    <li><a href="#application-commune">application commune</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="pixel-games">Pixel Games<a class="anchor" href="#pixel-games">#</a></h1>
+<p>Vous trouverze dans cet article la réalisation de trois jeux en python avec le module integré <a href="https://docs.python.org/3.15/library/tkinter.html" target="_blank">Tkinter</a>. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permetant de dessiné et d&rsquo;écrire.</p>
+<h1 id="création-des-jeux">Création des jeux<a class="anchor" href="#cr%c3%a9ation-des-jeux">#</a></h1>
+<h2 id="1--jeux-de-la-vie">1 : Jeux de la vie<a class="anchor" href="#1--jeux-de-la-vie">#</a></h2>
+<h3 id="introduction">Introduction<a class="anchor" href="#introduction">#</a></h3>
+<p>Le jeu de la vieaà été créé par le mathématicien John Horton Conway en 1970.
+Il s&rsquo;agit d&rsquo;une <strong>simulation</strong> la plus simple possible de cellules mortes ou vivantes.</p>
+<p>Sur un plan en 2 dimensions théoriquement infini, nous avons deux règles :</p>
+<ul>
+<li>une <strong>cellule morte</strong> devient vivante si elle possède 3 voisines vivantes</li>
+<li>une <strong>cellule vivante</strong> reste vivante si elle possède 2 ou 3 voisine vivantes, sinon elle meurt</li>
+</ul>
+<p>Ce programme fonctionnant par génération fait partie de la catégorie des jeux à 0 joueur, même si nous pouvons néanmoins interagir avec les cellules.</p>
+<h3 id="réalisation">Réalisation<a class="anchor" href="#r%c3%a9alisation">#</a></h3>
+<p>Tout le projet s&rsquo;articule autour de la <strong>classe Cellule</strong>. Cette dernière permet de créer des objets cellule représentés par des rectangles pouvant passés de l&rsquo;état 0 (mort) à l&rsquo;état 1 (vivant) selon les lois vues précédemment.</p>
+<p>Un premier fichier permet d&rsquo;initaliser la fenêtre, le canvas et differentes variables comme le nombre de colonnes de cellules souhaité</p>
+<p>Un dernier fichier (noté main.py) a pour rôle de créer tous les objets cellule dans le canvas, créer les différents boutons de la fenêtre ainsi que leur fonction associée. C&rsquo;est ce dernier programme que nous devons exécuter pour faire tourner notre jeu</p>
+<a class="book-btn"href="https://github.com/tori944/Jeu-de-la-vie"rel="noopener"target="_blank">Voir le code sur GitHub</a>
+<p>Image de la fenêtre de jeu :
+<img src="../../../image/JdlV.png" alt="Mon Jeu de la Vie" title="mon jeu de la vie"/>
+<em>source : personnelle</em></p>
+<h2 id="2--démineur">2 : Démineur<a class="anchor" href="#2--d%c3%a9mineur">#</a></h2>
+<h3 id="introduction-1">Introduction<a class="anchor" href="#introduction-1">#</a></h3>
+<p>Le démineur fut <strong>l&rsquo;un des premiers jeux sur ordinateur</strong>, voyant le jour dans les années 1960 et 1970.</p>
+<p>Le but du joueur face à cette grille est de <strong>localiser les bombes</strong> qui s&rsquo;y cachent. Pour cela, les cases saines (cases vertes) lui procurent comme indice le nombre de bombes dans leur voisines directes. Afin de les repérer et d&rsquo;éviter de cliquer dessus, il est possible de placer des drapeaux (cases orange).</p>
+<p>Lorsque toutes les cases saines sont découvertes, c&rsquo;est gagné !</p>
+<h3 id="réalisation-1">Réalisation<a class="anchor" href="#r%c3%a9alisation-1">#</a></h3>
+<p>Sur la même base que le jeu précedant. Ce programme fonctionne de même avec des objets Cellule régies par les lois propres à ce jeu.</p>
+<a class="book-btn"href="https://github.com/tori944/D-mineur"rel="noopener"target="_blank">Voir le code sur GitHub</a>
+<p>Image de la fenêtre de jeu :
+<img src="../../../image/Dmin.png" alt="Mon Démineur" title="mon démineur"/>
+<em>source : personnelle</em></p>
+<h2 id="3--snake">3 : Snake<a class="anchor" href="#3--snake">#</a></h2>
+<h3 id="introduction-2">Introduction<a class="anchor" href="#introduction-2">#</a></h3>
+<p>Snake est un jeu provenant de <strong>bornes d&rsquo;arcades</strong> en 1976 développé par Gremlin Industries.</p>
+<p>Le but de ce jeu est de contrôler un serpent pouvant grandir en avalant des pommes. Tout en faisant attention de ne pas se cogner ni aux bords de l&rsquo;écran de jeu, ni à lui-même</p>
+<h3 id="réalisation-2">Réalisation<a class="anchor" href="#r%c3%a9alisation-2">#</a></h3>
+<p>Sur la même structure que les programmes précedents</p>
+<a class="book-btn"href="https://github.com/tori944/Snake"rel="noopener"target="_blank">Voir le code sur GitHub</a>
+<p>Image de la fenêtre de jeu :
+<img src="../../../image/snake.png" alt="Mon Snake" title="mon snake"/>
+<em>source : personnelle</em></p>
+<h1 id="bac-à-sable">Bac à sable<a class="anchor" href="#bac-%c3%a0-sable">#</a></h1>
+<p>Le but du bac à sable n&rsquo;est pas de créer un jeu comme pour les programmes passés, mais un cadre de travail pour ajouter et créer des jeux.</p>
+<p>Ce programme sert donc à créer une interface avec des boutons et une matrice de pixels dans le but final de réunir les trois précédents jeux dans une seule application.</p>
+<p>en construction !</p>
+<h1 id="application-commune">application commune<a class="anchor" href="#application-commune">#</a></h1>
+<p>en construction !</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+  
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/projet/projet0/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Projet 0</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/tp/tp_capteur/" class="flex align-center">
+        <span>TP capteur CO2</span>
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#pixel-games">Pixel Games</a></li>
+    <li><a href="#création-des-jeux">Création des jeux</a>
+      <ul>
+        <li><a href="#1--jeux-de-la-vie">1 : Jeux de la vie</a>
+          <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#réalisation">Réalisation</a></li>
+          </ul>
+        </li>
+        <li><a href="#2--démineur">2 : Démineur</a>
+          <ul>
+            <li><a href="#introduction-1">Introduction</a></li>
+            <li><a href="#réalisation-1">Réalisation</a></li>
+          </ul>
+        </li>
+        <li><a href="#3--snake">3 : Snake</a>
+          <ul>
+            <li><a href="#introduction-2">Introduction</a></li>
+            <li><a href="#réalisation-2">Réalisation</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#bac-à-sable">Bac à sable</a></li>
+    <li><a href="#application-commune">application commune</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
