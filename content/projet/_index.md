@@ -15,7 +15,7 @@ Vous trouverez dans le menu la liste de tout mes articles concernant mes projets
 -   {{< card >}}
     ## [Ce site internet](../projet/projet0)
     Dans cet article, je tente d'expliquer comment j'ai construit ce site internet !
-    ![pixel](../../image/ceSite.png "pixel")
+    ![pixel](../../image/ceSite2.png "pixel")
     _source : personnelle_
     
     {{< /card >}}
