@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost:1313/brouillon/</loc>
   </url><url>
+    <loc>http://localhost:1313/projet/decouverteedu/</loc>
+  </url><url>
     <loc>http://localhost:1313/projet/hellopico/</loc>
   </url><url>
     <loc>http://localhost:1313/idee/</loc>
@@ -25,6 +27,8 @@
     <loc>http://localhost:1313/projet/python/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projet/python/pattern/</loc>
   </url><url>
     <loc>http://localhost:1313/projet/python/mespixelgames/</loc>
   </url><url>
