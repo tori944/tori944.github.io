@@ -6,10 +6,6 @@ title: "TP_1"
 
 # TP 1
 
-> [!DANGER]
-> **◑﹏◐**  
-> Cette page est en constructions,
-> les programmes sont à remanier
 
 {{< badge style="success" title="TP" value="Beginner" >}}
 

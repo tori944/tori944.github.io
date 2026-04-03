@@ -75,16 +75,3 @@ Image de la fenêtre de jeu :
 ![Mon Snake](../../../image/snake.png "mon snake")
 _source : personnelle_
 
-
-# Bac à sable 
-
-Le but du bac à sable n'est pas de créer un jeu comme pour les programmes passés, mais un cadre de travail pour ajouter et créer des jeux.
-
-Ce programme sert donc à créer une interface avec des boutons et une matrice de pixels dans le but final de réunir les trois précédents jeux dans une seule application.
-
-En construction !
-
-
-# application commune
-
-En construction !
