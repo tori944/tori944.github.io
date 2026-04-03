@@ -8,28 +8,31 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
-Voici le fonctionnement du capteur (d’après les consignes):
-Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp
+<meta name="description" content="TP capteur de CO2#Présentation#La qualité de l’air dans une pièce peut être mesuré grâce à sa la concentration en CO2. Nous allons donc concevoir une carte électronique permettant d’indiquer ce facteur.
+L’objectif est de réaliser une carte électronique indiquant lorsque le taux de CO2 à dépasser un certain seuil, ce qui déclenchera la fermeture d’un contacte.
+Principe de fonctionnement#Voici le fonctionnement du capteur (d’après les consignes):
+Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. Schéma de fonctionnement - source : sujet TP
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/tp/tp_capteur/">
   <meta property="og:site_name" content="Tori">
   <meta property="og:title" content="TP capteur CO2">
-  <meta property="og:description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
-Voici le fonctionnement du capteur (d’après les consignes):
-Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp">
+  <meta property="og:description" content="TP capteur de CO2#Présentation#La qualité de l’air dans une pièce peut être mesuré grâce à sa la concentration en CO2. Nous allons donc concevoir une carte électronique permettant d’indiquer ce facteur.
+L’objectif est de réaliser une carte électronique indiquant lorsque le taux de CO2 à dépasser un certain seuil, ce qui déclenchera la fermeture d’un contacte.
+Principe de fonctionnement#Voici le fonctionnement du capteur (d’après les consignes):
+Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. Schéma de fonctionnement - source : sujet TP">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tp">
 
 
   <meta itemprop="name" content="TP capteur CO2">
-  <meta itemprop="description" content="TP capteur de CO2#L’objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d’un seuil donné.
-Voici le fonctionnement du capteur (d’après les consignes):
-Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. source : pdf consigne du tp">
-  <meta itemprop="wordCount" content="457">
+  <meta itemprop="description" content="TP capteur de CO2#Présentation#La qualité de l’air dans une pièce peut être mesuré grâce à sa la concentration en CO2. Nous allons donc concevoir une carte électronique permettant d’indiquer ce facteur.
+L’objectif est de réaliser une carte électronique indiquant lorsque le taux de CO2 à dépasser un certain seuil, ce qui déclenchera la fermeture d’un contacte.
+Principe de fonctionnement#Voici le fonctionnement du capteur (d’après les consignes):
+Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Cette tension sera alors comparée avec un seuil réglé par un potentiomètre. Quand le taux de CO2 sera supérieur au seuil, le comparateur donnera une tension positive Cette tension sera amplifiée par un transistor qui alimentera un relais Le contact du relais sera utilisé pour indiquer que le seuil de détection est atteint. Des leds serviront à visualiser la présence de la tension d’alimentation et l’état du capteur. Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V. Schéma de fonctionnement - source : sujet TP">
+  <meta itemprop="wordCount" content="953">
 
 <title>TP capteur CO2 | Tori</title>
 <link rel="icon" href="/favicon.png" >
@@ -39,7 +42,7 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.6dc34ed11a7476e501eec8e7bba90a1a52d49a3450f786d391fe62088917580c.js" integrity="sha256-bcNO0Rp0duUB7sjnu6kKGlLUmjRQ94bTkf5iCIkXWAw=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.90aab0555ee7ea72ee1b241442746ac541912990fde32471184a898f68d04b11.js" integrity="sha256-kKqwVV7n6nLuGyQUQnRqxUGRKZD94yRxGEqJj2jQSxE=" crossorigin="anonymous"></script>
 
 
 
@@ -249,20 +252,6 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
         </li>
       
     
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/tp/tp2/" class="">
-      TP_2</a>
-  
-
-        </li>
-      
-    
   </ul>
 
         </li>
@@ -321,13 +310,37 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
   <ul>
     <li><a href="#tp-capteur-de-co2">TP capteur de CO2</a>
       <ul>
-        <li><a href="#1-led-présence-de-tension">1. Led présence de tension</a></li>
-        <li><a href="#2-capteur">2. Capteur</a></li>
-        <li><a href="#3-seuil-de-déclanchement">3. Seuil de déclanchement</a></li>
-        <li><a href="#4-comparateur">4. Comparateur</a></li>
-        <li><a href="#5-amplification">5. Amplification</a></li>
-        <li><a href="#6-relais">6. Relais</a></li>
-        <li><a href="#7-autres-éléments">7. autres éléments</a></li>
+        <li><a href="#présentation">Présentation</a></li>
+        <li><a href="#principe-de-fonctionnement">Principe de fonctionnement</a></li>
+        <li><a href="#étude-des-composants">Étude des composants</a>
+          <ul>
+            <li><a href="#régulateur-de-tension-5v">régulateur de tension 5V</a></li>
+            <li><a href="#potensiomètre">Potensiomètre</a></li>
+            <li><a href="#capteur-de-co2">Capteur de CO2</a></li>
+            <li><a href="#lm-538">LM 538</a></li>
+            <li><a href="#transistor">Transistor</a></li>
+            <li><a href="#relais">Relais</a></li>
+            <li><a href="#condensateur">Condensateur</a></li>
+            <li><a href="#leds-et-résistances">Leds et résistances</a></li>
+            <li><a href="#diode">Diode</a></li>
+          </ul>
+        </li>
+        <li><a href="#réalisation-du-circuit">Réalisation du circuit</a>
+          <ul>
+            <li><a href="#alimentation-condensateur-et-régulateur-5v">Alimentation, condensateur et régulateur 5v</a></li>
+            <li><a href="#tension-de-seuil-capteur-et-comparateur">Tension de seuil, capteur et comparateur</a></li>
+            <li><a href="#transmission">Transmission</a></li>
+          </ul>
+        </li>
+        <li><a href="#réalisation-sur-ordinateur">Réalisation sur ordinateur</a></li>
+        <li><a href="#réalisation-physique">Réalisation Physique</a>
+          <ul>
+            <li><a href="#création-du-circuit-imprimé">Création du circuit imprimé</a></li>
+            <li><a href="#ajout-des-composants">Ajout des composants</a></li>
+          </ul>
+        </li>
+        <li><a href="#vérification">Vérification</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
       </ul>
     </li>
   </ul>
@@ -343,7 +356,10 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
       
       
   <article class="markdown book-article"><h1 id="tp-capteur-de-co2">TP capteur de CO2<a class="anchor" href="#tp-capteur-de-co2">#</a></h1>
-<p>L&rsquo;objectif de ce tp est de créer un capteur de co2 qui ce déclanche à partir d&rsquo;un seuil donné.</p>
+<h2 id="présentation">Présentation<a class="anchor" href="#pr%c3%a9sentation">#</a></h2>
+<p>La qualité de l’air dans une pièce peut être mesuré grâce à sa la concentration en CO2. Nous allons donc concevoir une carte électronique permettant d’indiquer ce facteur.</p>
+<p>L’objectif est de réaliser une carte électronique indiquant lorsque le taux de CO2 à dépasser un certain seuil, ce qui déclenchera la fermeture d’un contacte.</p>
+<h2 id="principe-de-fonctionnement">Principe de fonctionnement<a class="anchor" href="#principe-de-fonctionnement">#</a></h2>
 <p>Voici le fonctionnement du capteur (d&rsquo;après les consignes):</p>
 <ul>
 <li>Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air</li>
@@ -355,80 +371,99 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 <li>Un régulateur de tension sera utilisé pour maintenir la tension d’alimentation à 5 V.</li>
 </ul>
 <p><img src="../../image/principe_fonctionnement_capteur_co2.jpg" alt="" />
-<em>source : pdf consigne du tp</em></p>
-<h2 id="1-led-présence-de-tension">1. Led présence de tension<a class="anchor" href="#1-led-pr%c3%a9sence-de-tension">#</a></h2>
-<p>Pour ce faire, nous commençons par ajouter un <strong>régulateur de tension 5V</strong>.</p>
+<em>Schéma de fonctionnement - source : sujet TP</em></p>
+<h2 id="étude-des-composants">Étude des composants<a class="anchor" href="#%c3%a9tude-des-composants">#</a></h2>
+<h3 id="régulateur-de-tension-5v">régulateur de tension 5V<a class="anchor" href="#r%c3%a9gulateur-de-tension-5v">#</a></h3>
+<p>Un régulateur 5V permet de réguler une tension d’entrée (comprise entre 6.5 et 36v dans notre cas) en une tension de sortie à 5v.</p>
 <div class="book-columns"id="book-columns-0">
 <ul>
 <li>
 <p><img src="../../image/regul5v.jpg" alt="" />
-<em>source : personnelle</em></p>
+<em>Régulateur 5v - source : personnelle</em></p>
 </li>
 <li>
-<p>Ce composant e trois broches :</p>
+<p>Ce composant possède trois broches :</p>
 <ul>
-<li>la première pour le +</li>
-<li>la deuxième pour le -</li>
-<li>la troisième pour la sortie de la tension ainsi régulé.</li>
+<li>VCC</li>
+<li>GND</li>
+<li>Tension de sortie</li>
 </ul>
 </li>
 </ul>
 </div>
-<p>En sortie on ajoute une résistance et une led afin de signifié que le courant passe bien.</p>
-<h2 id="2-capteur">2. Capteur<a class="anchor" href="#2-capteur">#</a></h2>
+<h3 id="potensiomètre">Potensiomètre<a class="anchor" href="#potensiom%c3%a8tre">#</a></h3>
+<p>Afin de moduler le seuil de déclanchement, nous utiliserons un potentiomètre.</p>
 <div class="book-columns"id="book-columns-1">
 <ul>
 <li>
-<p>On alimente le capteur avec la sortie du regulateur (borne vcc) sans oublier de relier la borne negative de ce dernier avec celle du circuit.</p>
+<p>Trois broches :</p>
+<ul>
+<li>VCC</li>
+<li>Tension de sortie</li>
+<li>GND</li>
+</ul>
 </li>
 <li>
-<p><img src="../../image/capteur_gaz.jpg" alt="" />
-<em>source : personnelle</em></p>
+<p><img src="../../image/po.jpg" alt="" />
+<em>Potentiomètre - source : personnelle</em></p>
 </li>
 </ul>
 </div>
-<p>La sortie du capteur est celle de la broche A0. C&rsquo;est unne tension qui dépend du niveau de co2.</p>
-<h2 id="3-seuil-de-déclanchement">3. Seuil de déclanchement<a class="anchor" href="#3-seuil-de-d%c3%a9clanchement">#</a></h2>
-<p>Afin de modulé un seuil de déclanchement nous allons utilisé un <strong>potentiomètre</strong>, ce qui correspond à une resistance variable.</p>
+<h3 id="capteur-de-co2">Capteur de CO2<a class="anchor" href="#capteur-de-co2">#</a></h3>
+<p>Ce capteur de gaz MQ2 renvois une tension variable en fonction du taux de CO2 ambiant.</p>
 <div class="book-columns"id="book-columns-2">
 <ul>
 <li>
-<p><img src="../../image/po.jpg" alt="" />
-<em>source : personnelle</em></p>
+<p><img src="../../image/capteur_gaz.jpg" alt="" />
+<em>Capteur CO2 - source : personnelle</em></p>
 </li>
 <li>
-<p>Comme les autres composant utilisé, un potentiomètre possède trois patte : +, sortie et -.</p>
+<p>4 briches, respectivement :</p>
+<ul>
+<li>GND</li>
+<li>VCC</li>
+<li>D0 (sortie digital)</li>
+<li>A0 (sortie analogique)</li>
+</ul>
 </li>
 </ul>
 </div>
-<p>Le seuil de déclanchemant choisi sera alors une tension. Lorsque la sortie du détecteur atteint cette tention nous voulons le déclanchement du système.</p>
-<h2 id="4-comparateur">4. Comparateur<a class="anchor" href="#4-comparateur">#</a></h2>
-<p>Nous allons utilisé un amplificateur opérationnel du nom de <strong>LM 358</strong> pour comparer ces deux tentions.</p>
+<h3 id="lm-538">LM 538<a class="anchor" href="#lm-538">#</a></h3>
+<p>Nous allons utilisé un amplificateur opérationnel comme <strong>comparateur</strong></p>
 <div class="book-columns"id="book-columns-3">
 <ul>
 <li>
-<p>il y a 8 broches :</p>
+<p>8 broches :</p>
 <ul>
-<li>2 pour + et -</li>
-<li>3 * 2 pour deux comparateurs (deux entrée et une sortie)</li>
+<li>VCC</li>
+<li>GNC</li>
+<li>3x2 pour deux comparateurs (deux entrée et une sortie)</li>
 </ul>
 </li>
 <li>
 <p><img src="../../image/lm358.jpg" alt="" />
-<em>source : personnelle</em></p>
+<em>LM538 - source : personnelle</em></p>
+</li>
+<li>
+<p><img src="../../image/schema538.png" alt="" />
+<em>schéma LM538 - source : alldatasheet.fr</em></p>
 </li>
 </ul>
 </div>
-<h2 id="5-amplification">5. Amplification<a class="anchor" href="#5-amplification">#</a></h2>
-<p>Nous allons utilisé un transistor NPN le <strong>BC237B</strong> pour amplifier le signal vers le relais. Le transistor sera utilisé en mode interupteur</p>
+<h3 id="transistor">Transistor<a class="anchor" href="#transistor">#</a></h3>
+<p>Pour <strong>amplifier</strong> le signal à la suite du comparateur, nous utiliserons un transistor <strong>BC237B NPN</strong>, c’est-à-dire que le courant va du collecteur à l’émetteur.</p>
 <div class="book-columns"id="book-columns-4">
 <ul>
+<li>
+<p><img src="../../image/schemaTransistor.png" alt="" />
+<em>Transistor - source :  alldatasheet.fr</em></p>
+</li>
 <li>
 <p><img src="../../image/transistor.jpg" alt="" />
 <em>source : personnelle</em></p>
 </li>
 <li>
-<p>il y a 3 broches :</p>
+<p>3 broches :</p>
 <ul>
 <li>Emeteur</li>
 <li>Base</li>
@@ -437,26 +472,49 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 </li>
 </ul>
 </div>
-<h2 id="6-relais">6. Relais<a class="anchor" href="#6-relais">#</a></h2>
-<p>Un relais permet de fermé un circuit independant.</p>
+<h3 id="relais">Relais<a class="anchor" href="#relais">#</a></h3>
+<p>Le relais électromagnétique permet l’ouverture ou la fermeture d’un circuit
+indépendant grâce à une bobine actionnant des interrupteurs.</p>
 <div class="book-columns"id="book-columns-5">
 <ul>
 <li>
-<p>il y a 5 broches :</p>
+<p>8 broches :</p>
 <ul>
-<li>2 pour l&rsquo;entré et sortie du permier circuit</li>
-<li>3 pour l&rsquo;entré et deux sorties du second circuit</li>
+<li>VCC</li>
+<li>GND</li>
+<li>3x2 pour les circuits indépendants</li>
 </ul>
 </li>
 <li>
-<p><img src="../../image/relay.jpg" alt="" />
-<em>source : personnelle</em></p>
+<p><img src="../../image/relais.png" alt="" />
+<em>relais - source : soselectronic.com</em></p>
+</li>
+<li>
+<p><img src="../../image/schemaRelais.png" alt="" />
+<em>relais - source : soselectronic.com</em></p>
 </li>
 </ul>
 </div>
-<h2 id="7-autres-éléments">7. autres éléments<a class="anchor" href="#7-autres-%c3%a9l%c3%a9ments">#</a></h2>
+<h3 id="condensateur">Condensateur<a class="anchor" href="#condensateur">#</a></h3>
 <div class="book-columns"id="book-columns-6">
 <ul>
+<li>
+<p><img src="../../image/condensateur.jpg" alt="" />
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p>Un condensateur électrochimique de 47μF est utilisé afin
+de filtrer et stabilisé la tension d’alimentation du circuit.</p>
+</li>
+</ul>
+</div>
+<h3 id="leds-et-résistances">Leds et résistances<a class="anchor" href="#leds-et-r%c3%a9sistances">#</a></h3>
+<div class="book-columns"id="book-columns-7">
+<ul>
+<li>
+<p>Afin de signaler la présence ou non de tension, nous utiliserons des leds et résistances
+de 4k7 et 330 ohms.</p>
+</li>
 <li>
 <p><img src="../../image/led.jpg" alt="" />
 <em>source : personnelle</em></p>
@@ -465,25 +523,120 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
 <p><img src="../../image/resistance.jpg" alt="" />
 <em>source : personnelle</em></p>
 </li>
-<li>
-<p>Nous utiliserons aussi des leds et resistances pour indiquer des informations.</p>
-</li>
 </ul>
 </div>
-<div class="book-columns"id="book-columns-7">
+<h3 id="diode">Diode<a class="anchor" href="#diode">#</a></h3>
+<div class="book-columns"id="book-columns-8">
 <ul>
-<li>
-<p><img src="../../image/condensateur.jpg" alt="" />
-<em>source : personnelle</em></p>
-<p>condensateur en début de circuit</p>
-</li>
 <li>
 <p><img src="../../image/diode.jpg" alt="" />
 <em>source : personnelle</em></p>
-<p>diode</p>
+</li>
+<li>
+<p>Une diode 1N4148 qui sera utilisé comme
+diode de roue libre, c’est-à-dire qu’elle sera
+reliée à la bobine du relais pour empêcher la
+tension de retour.</p>
 </li>
 </ul>
 </div>
+<h2 id="réalisation-du-circuit">Réalisation du circuit<a class="anchor" href="#r%c3%a9alisation-du-circuit">#</a></h2>
+<p>Nous allons réaliser le circuit pas à pas</p>
+<h3 id="alimentation-condensateur-et-régulateur-5v">Alimentation, condensateur et régulateur 5v<a class="anchor" href="#alimentation-condensateur-et-r%c3%a9gulateur-5v">#</a></h3>
+<div class="book-columns"id="book-columns-9">
+<ul>
+<li>
+<p><img src="../../image/s1.png" alt="" />
+<em>schéma électrique - source : sujet TP</em></p>
+</li>
+<li>
+<p>Voici le début du circuit, nous pouvons y voir l’alimentation, une pile 9V dans notre cas. A laquelle nous ajouton le condensateur ainsi que la led (avec résistance). Nous finissons cette partie par le régukateur 5v</p>
+</li>
+</ul>
+</div>
+<h3 id="tension-de-seuil-capteur-et-comparateur">Tension de seuil, capteur et comparateur<a class="anchor" href="#tension-de-seuil-capteur-et-comparateur">#</a></h3>
+<div class="book-columns"id="book-columns-10">
+<ul>
+<li>
+<p><img src="../../image/s2.png" alt="" />
+<em>schéma électrique - source : sujet TP</em></p>
+</li>
+<li>
+<p>Nous y ajoutons le potenciomètre ainsi que le capteur de CO2. ces deux élments délivrerons une tention differentes qui va alors être comparer par le LM 358. Si la tension du capteur dépasse celle du potenciomètre, le comparateur délivrera un signal.</p>
+</li>
+</ul>
+</div>
+<h3 id="transmission">Transmission<a class="anchor" href="#transmission">#</a></h3>
+<p>Ici nous avons transmis la tension en sortie du comparateur à un transistor afin que ce dernier agisse comme un interrupteur dans l’alimentation du relais.
+Nous n’oublions pas la résistance avant le transistor car ce dernier ce déclenche avec une tension comprise entre 0.4 à 0.8 V. Ainsi que la diode de roue libre du relais.
+A la sortie du relais, une led indique la présence de tension, tandis que les bornes de sorties sont actives.</p>
+<p><img src="../../image/s3.png" alt="" />
+<em>schéma électrique - source : sujet TP</em></p>
+<h2 id="réalisation-sur-ordinateur">Réalisation sur ordinateur<a class="anchor" href="#r%c3%a9alisation-sur-ordinateur">#</a></h2>
+<p>Dans le but de concevoir une carte électronique, nous commençons par modéliser le circuit avec le logiciel EAGLE.</p>
+<p><img src="../../image/s4.png" alt="" />
+<em>schéma electrique logiciel eagle- source : personnelle</em></p>
+<p>Ensuite, nous agençons les composant et créons le passage circuit imprimé à l’aide du même logiciel.</p>
+<p><img src="../../image/s5.png" alt="" />
+<em>schéma electrique logiciel eagle - source : personnelle</em></p>
+<h2 id="réalisation-physique">Réalisation Physique<a class="anchor" href="#r%c3%a9alisation-physique">#</a></h2>
+<h3 id="création-du-circuit-imprimé">Création du circuit imprimé<a class="anchor" href="#cr%c3%a9ation-du-circuit-imprim%c3%a9">#</a></h3>
+<p>Nous commençons par imprimé le dernier schéma du circuit sur une feuille de papier calque que nous venons positionner sur notre plaquette recouverte d’une filme de cuivre.
+Une fois superposé, nous l’insérons dans une machine à UV pendant 90 secondes.</p>
+<p>Voici deux images de la machine à UV.</p>
+<div class="book-columns"id="book-columns-11">
+<ul>
+<li>
+<p><img src="../../image/m1.jpg" alt="" />
+<em>machine UV - source : personnelle</em></p>
+</li>
+<li>
+<p><img src="../../image/m2.jpg" alt="" />
+<em>machine UV - source : personnelle</em></p>
+</li>
+</ul>
+</div>
+<div class="book-columns"id="book-columns-12">
+<ul>
+<li>
+<p>Ensuite la carte passe dans une solution pour faire apparaitre le circuit.
+<img src="../../image/cs.jpg" alt="" />
+<em>bain solution - source : personnelle</em></p>
+</li>
+<li>
+<p>Et pour finir le circuit passe dans une autre machine lui apportant une solution acide.
+<img src="../../image/cm.jpg" alt="" />
+<em>machine solution acide - source : personnelle</em></p>
+</li>
+</ul>
+</div>
+<h3 id="ajout-des-composants">Ajout des composants<a class="anchor" href="#ajout-des-composants">#</a></h3>
+<p>Nous perforons la carte et y soudons les composants.</p>
+<div class="book-columns"id="book-columns-13">
+<ul>
+<li>
+<p><img src="../../image/c1.jpg" alt="" />
+<em>perforation - source : personnelle</em></p>
+</li>
+<li>
+<p><img src="../../image/c2.jpg" alt="" />
+<em>carte perforé - source : personnelle</em></p>
+</li>
+<li>
+<p><img src="../../image/c3.jpg" alt="" />
+<em>carte composants soudés - source : personnelle</em></p>
+</li>
+</ul>
+</div>
+<h2 id="vérification">Vérification<a class="anchor" href="#v%c3%a9rification">#</a></h2>
+<p>Afin de vérifier que la carte fonctionne bien, nous testons que le courtant sircule bien en tout point et qu’il n’y a pas de perte.</p>
+<p>Ensuite nous testons la carte en conditions.</p>
+<p>Résultat final :</p>
+<p><img src="../../image/carteFinal.jpg" alt="" />
+<em>résultat final - source : personnelle</em></p>
+<h2 id="conclusion">Conclusion<a class="anchor" href="#conclusion">#</a></h2>
+<p>Nous avons pu réalisé un détecteur de CO2</p>
+<p>Ce projet nous a permis de découvrir certain composant électronique ainsi que d’apprendre leur fonctionnement et utilisation dans le cadre d’un projet de détection de CO2. Cela nous a aussi permis d’en apprendre plus sur la conception de circuit imprimé.</p>
 </article>
  
       
@@ -565,13 +718,37 @@ Un capteur de CO2 donnera une tension qui dépend du taux de CO2 dans l’air Ce
   <ul>
     <li><a href="#tp-capteur-de-co2">TP capteur de CO2</a>
       <ul>
-        <li><a href="#1-led-présence-de-tension">1. Led présence de tension</a></li>
-        <li><a href="#2-capteur">2. Capteur</a></li>
-        <li><a href="#3-seuil-de-déclanchement">3. Seuil de déclanchement</a></li>
-        <li><a href="#4-comparateur">4. Comparateur</a></li>
-        <li><a href="#5-amplification">5. Amplification</a></li>
-        <li><a href="#6-relais">6. Relais</a></li>
-        <li><a href="#7-autres-éléments">7. autres éléments</a></li>
+        <li><a href="#présentation">Présentation</a></li>
+        <li><a href="#principe-de-fonctionnement">Principe de fonctionnement</a></li>
+        <li><a href="#étude-des-composants">Étude des composants</a>
+          <ul>
+            <li><a href="#régulateur-de-tension-5v">régulateur de tension 5V</a></li>
+            <li><a href="#potensiomètre">Potensiomètre</a></li>
+            <li><a href="#capteur-de-co2">Capteur de CO2</a></li>
+            <li><a href="#lm-538">LM 538</a></li>
+            <li><a href="#transistor">Transistor</a></li>
+            <li><a href="#relais">Relais</a></li>
+            <li><a href="#condensateur">Condensateur</a></li>
+            <li><a href="#leds-et-résistances">Leds et résistances</a></li>
+            <li><a href="#diode">Diode</a></li>
+          </ul>
+        </li>
+        <li><a href="#réalisation-du-circuit">Réalisation du circuit</a>
+          <ul>
+            <li><a href="#alimentation-condensateur-et-régulateur-5v">Alimentation, condensateur et régulateur 5v</a></li>
+            <li><a href="#tension-de-seuil-capteur-et-comparateur">Tension de seuil, capteur et comparateur</a></li>
+            <li><a href="#transmission">Transmission</a></li>
+          </ul>
+        </li>
+        <li><a href="#réalisation-sur-ordinateur">Réalisation sur ordinateur</a></li>
+        <li><a href="#réalisation-physique">Réalisation Physique</a>
+          <ul>
+            <li><a href="#création-du-circuit-imprimé">Création du circuit imprimé</a></li>
+            <li><a href="#ajout-des-composants">Ajout des composants</a></li>
+          </ul>
+        </li>
+        <li><a href="#vérification">Vérification</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
       </ul>
     </li>
   </ul>
