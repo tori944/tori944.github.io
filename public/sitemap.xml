@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:56795/brouillon/</loc>
+    <loc>http://localhost:1313/brouillon/</loc>
   </url><url>
-    <loc>http://localhost:56795/projet/decouverteedu/</loc>
+    <loc>http://localhost:1313/projet/cle_linux/</loc>
   </url><url>
-    <loc>http://localhost:56795/projet/hellopico/</loc>
+    <loc>http://localhost:1313/projet/decouverteedu/</loc>
   </url><url>
-    <loc>http://localhost:56795/idee/</loc>
+    <loc>http://localhost:1313/projet/hellopico/</loc>
   </url><url>
-    <loc>http://localhost:56795/projet/</loc>
+    <loc>http://localhost:1313/idee/</loc>
   </url><url>
-    <loc>http://localhost:56795/projet/projet0/</loc>
+    <loc>http://localhost:1313/projet/</loc>
   </url><url>
-    <loc>http://localhost:56795/tp/tp_capteur/</loc>
+    <loc>http://localhost:1313/projet/projet0/</loc>
   </url><url>
-    <loc>http://localhost:56795/tp/</loc>
+    <loc>http://localhost:1313/tp/tp_capteur/</loc>
   </url><url>
-    <loc>http://localhost:56795/tp/tp1/</loc>
+    <loc>http://localhost:1313/tp/</loc>
   </url><url>
-    <loc>http://localhost:56795/</loc>
+    <loc>http://localhost:1313/tp/tp1/</loc>
   </url><url>
-    <loc>http://localhost:56795/projet/python/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:56795/categories/</loc>
+    <loc>http://localhost:1313/projet/python/</loc>
   </url><url>
-    <loc>http://localhost:56795/projet/python/pattern/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:56795/projet/python/mespixelgames/</loc>
+    <loc>http://localhost:1313/projet/python/pattern/</loc>
   </url><url>
-    <loc>http://localhost:56795/tags/</loc>
+    <loc>http://localhost:1313/projet/python/minijeux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projet/python/mespixelgames/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

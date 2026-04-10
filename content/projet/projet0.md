@@ -14,7 +14,24 @@ Afin d'utiliser ce framwork, nous avons besoin de :
 - <a href="https://go.dev/" target="_blank">Go</a>
 - <a href="https://git-scm.com/" target="_blank">Git</a>
 - <a href="https://sass-lang.com/dart-sass/" target="_blank">Dart Sass</a>
-- <a href="https://chocolatey.org/" target="_blank">Chocolatly</a>
+- <a href="https://chocolatey.org/" target="_blank">chocolatey</a>
+
+### GO
+Go est un langage de programmation.
+
+Le framwork Hugo est écrit avec ce langage, c'est pour cela que nous en avons besoin.
+
+### GIT
+Git est un logiciel de gestion de version décentralisé
+
+C'est ce logiciel qui permet notament de mettre du contenu sur le site GitHub
+
+### Dart Sass
+Sass (syntactically awesome style sheets)
+
+### chocolatey
+chocolatey est un gestionnaire de packets pour Windows
+
 
 ## 2 : Hébergement
 
