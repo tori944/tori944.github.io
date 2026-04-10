@@ -6,6 +6,8 @@ title: "Minis Jeux"
 
 Voici un projet aillant pour but de repertorier en une application plusieurs petits jeux avec <a href="https://docs.python.org/3.15/library/tkinter.html" target="_blank">Tkinter</a>.
 
+{{<button href="https://github.com/tori944/Les_Minis_Jeux">}}Voir mon projet sur GitHub{{</button>}}
+
 ## jeu du pendu
 
 {{% Columns %}}
