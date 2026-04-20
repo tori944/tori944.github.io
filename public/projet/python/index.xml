@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tori</title>
-    <link>http://localhost:1313/projet/python/</link>
+    <link>http://localhost:55115/projet/python/</link>
     <description>Recent content on Tori</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/projet/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55115/projet/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamique des Patterns</title>
-      <link>http://localhost:1313/projet/python/pattern/</link>
+      <link>http://localhost:55115/projet/python/pattern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projet/python/pattern/</guid>
+      <guid>http://localhost:55115/projet/python/pattern/</guid>
       <description>&lt;h1 id=&#34;dynamique-des-patterns&#34;&gt;Dynamique des Patterns&lt;a class=&#34;anchor&#34; href=&#34;#dynamique-des-patterns&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Voici un projet en python aillant pour but de pavé un espace avec des patterns définis et certaines règles d&amp;rsquo;agencements&lt;/p&gt;&#xA;&lt;p&gt;Ce projet est inspiré de &lt;a href=&#34;https://github.com/mxgmn/WaveFunctionCollapse?tab=readme-ov-file&#34; target=&#34;_blank&#34;&gt;celui-ci&lt;/a&gt;&lt;/p&gt;&#xA;&lt;a class=&#34;book-btn&#34;href=&#34;https://github.com/tori944/La-Dynamique-des-Patterns&#34;rel=&#34;noopener&#34;target=&#34;_blank&#34;&gt;Voir mon projet sur GitHub&lt;/a&gt;&#xA;&lt;p&gt;Dans mon cas j&amp;rsquo;ai repris la base de la matrice de cellule des projets de &lt;a href=&#34;../mespixelgames&#34;&gt;Pixel Games&lt;/a&gt;. Cela me permet de pouvoir générer des motifs plus facilement.&#xA;Ces motifs sont formés comme un puzzle avec des tuiles définies à l&amp;rsquo;avance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minis Jeux</title>
-      <link>http://localhost:1313/projet/python/minijeux/</link>
+      <link>http://localhost:55115/projet/python/minijeux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projet/python/minijeux/</guid>
-      <description>&lt;h1 id=&#34;les-minis-jeux&#34;&gt;Les Minis Jeux&lt;a class=&#34;anchor&#34; href=&#34;#les-minis-jeux&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+      <guid>http://localhost:55115/projet/python/minijeux/</guid>
+      <description>&lt;h1 id=&#34;les-minis-jeux&#34;&gt;Les Minis Jeux&lt;a class=&#34;anchor&#34; href=&#34;#les-minis-jeux&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Voici un projet aillant pour but de repertorier en une application plusieurs petits jeux avec &lt;a href=&#34;https://docs.python.org/3.15/library/tkinter.html&#34; target=&#34;_blank&#34;&gt;Tkinter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;a class=&#34;book-btn&#34;href=&#34;https://github.com/tori944/Les_Minis_Jeux&#34;rel=&#34;noopener&#34;target=&#34;_blank&#34;&gt;Voir mon projet sur GitHub&lt;/a&gt;&#xA;&lt;h2 id=&#34;jeu-du-pendu&#34;&gt;jeu du pendu&lt;a class=&#34;anchor&#34; href=&#34;#jeu-du-pendu&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;div class=&#34;book-columns&#34;id=&#34;book-columns-1&#34;&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../../image/pendu1.png&#34; alt=&#34;&#34; title=&#34;pendu&#34;/&gt;&#xA;&lt;em&gt;source : personnelle&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Le premier jeu est simplement celui du pendu dont voici actuellement l&amp;rsquo;interface&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;jeu-de-piano&#34;&gt;jeu de piano&lt;a class=&#34;anchor&#34; href=&#34;#jeu-de-piano&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;En contruction !&lt;/strong&gt;&lt;br&gt;&#xA;Ce jeu est actuelement en contstruction&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&#34;une-application-avec-pyinstaller&#34;&gt;Une application avec pyinstaller&lt;a class=&#34;anchor&#34; href=&#34;#une-application-avec-pyinstaller&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;&lt;a href=&#34;https://pyinstaller.org/en/stable/&#34; target=&#34;_blank&#34;&gt;pyinstaller&lt;/a&gt; est un module python permettant de créer un executable à partir d&amp;rsquo;un projet python. Ce procéder permet de lancer notre application sur d&amp;rsquo;autre ordinateur n&amp;rsquo;aillant pas préalablement python d&amp;rsquo;inatallé&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pixel Games</title>
-      <link>http://localhost:1313/projet/python/mespixelgames/</link>
+      <link>http://localhost:55115/projet/python/mespixelgames/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projet/python/mespixelgames/</guid>
+      <guid>http://localhost:55115/projet/python/mespixelgames/</guid>
       <description>&lt;h1 id=&#34;pixel-games&#34;&gt;Pixel Games&lt;a class=&#34;anchor&#34; href=&#34;#pixel-games&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Vous trouverez dans cet article la réalisation de trois jeux en python avec le module intégré &lt;a href=&#34;https://docs.python.org/3.15/library/tkinter.html&#34; target=&#34;_blank&#34;&gt;Tkinter&lt;/a&gt;. Ce dernier permet de créer des interfaces graphiques. Nous utiliserons principalement le widget canvas permettant de dessiner et d&amp;rsquo;écrire.&lt;/p&gt;&#xA;&lt;h1 id=&#34;création-des-jeux&#34;&gt;Création des jeux&lt;a class=&#34;anchor&#34; href=&#34;#cr%c3%a9ation-des-jeux&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;1--jeu-de-la-vie&#34;&gt;1 : Jeu de la vie&lt;a class=&#34;anchor&#34; href=&#34;#1--jeu-de-la-vie&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Le jeu de la vie à été créé par le mathématicien John Horton Conway en 1970.&#xA;Il s&amp;rsquo;agit d&amp;rsquo;une &lt;strong&gt;simulation&lt;/strong&gt; la plus simple possible de cellules mortes ou vivantes.&lt;/p&gt;</description>
     </item>
   </channel>

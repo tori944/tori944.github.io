@@ -2,38 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/brouillon/</loc>
+    <loc>http://localhost:55115/brouillon/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/cle_linux/</loc>
+    <loc>http://localhost:55115/projet/cle_linux/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/decouverteedu/</loc>
+    <loc>http://localhost:55115/projet/decouverteedu/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/hellopico/</loc>
+    <loc>http://localhost:55115/projet/hellopico/</loc>
   </url><url>
-    <loc>http://localhost:1313/idee/</loc>
+    <loc>http://localhost:55115/idee/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/</loc>
+    <loc>http://localhost:55115/projet/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/projet0/</loc>
+    <loc>http://localhost:55115/projet/orca/</loc>
   </url><url>
-    <loc>http://localhost:1313/tp/tp_capteur/</loc>
+    <loc>http://localhost:55115/projet/projet0/</loc>
   </url><url>
-    <loc>http://localhost:1313/tp/</loc>
+    <loc>http://localhost:55115/tp/tp_capteur/</loc>
   </url><url>
-    <loc>http://localhost:1313/tp/tp1/</loc>
+    <loc>http://localhost:55115/tp/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:55115/tp/tp1/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/python/</loc>
+    <loc>http://localhost:55115/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:55115/projet/python/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/python/pattern/</loc>
+    <loc>http://localhost:55115/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/python/minijeux/</loc>
+    <loc>http://localhost:55115/projet/python/pattern/</loc>
   </url><url>
-    <loc>http://localhost:1313/projet/python/mespixelgames/</loc>
+    <loc>http://localhost:55115/projet/python/minijeux/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:55115/projet/python/mespixelgames/</loc>
+  </url><url>
+    <loc>http://localhost:55115/tags/</loc>
   </url>
 </urlset>

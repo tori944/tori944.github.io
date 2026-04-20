@@ -24,7 +24,7 @@ Vous trouverez dans le menu la liste de tout mes articles concernant mes projets
     ## [Jeux en python](../projet/python/mespixelgames)
     Voici comment j'ai codé le Jeux de la vie, le Démineur et Snake en Python avec Tkinter
 
-    ![pixel](../../image/pixel.png "pixel")
+    ![pixel](../../image/animationJDLV.gif "pixel")
     _source : personnelle_
     {{< /card >}}
 
@@ -36,6 +36,7 @@ Vous trouverez dans le menu la liste de tout mes articles concernant mes projets
     _source : personnelle_
     {{< /card >}}
 {{% /columns %}}
+
 
 
 
