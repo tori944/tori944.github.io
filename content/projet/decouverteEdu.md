@@ -2,6 +2,7 @@
 weight: 1
 bookFlatSection: true
 title: "Découverte EduArdu"
+bookHidden: true
 ---
 
 # À la découverte d'Eduardu

@@ -1,5 +1,6 @@
 ---
 title: "Minis Jeux"
+bookHidden: true
 ---
 
 # Les Minis Jeux
