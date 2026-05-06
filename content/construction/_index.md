@@ -11,7 +11,7 @@ Ici vous pourrez trouver les pages de ce site qui seront bientôt disponibles ! 
 
 
 
-## <a href="../projet/Python/minijeux">minis jeux en python</a>
+## <a href="../projet/python/minijeux">minis jeux en python</a>
 
 Un projet consistant à réunir plusieurs minis jeux dans une seule application pour améliorer mes connaissances en python avec des idées simples comme des jeux de mots, de chiffres, un piano et j'en passe.
 
