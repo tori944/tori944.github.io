@@ -1,7 +1,7 @@
 ---
 weight: 1
-bookFlatSection: true
-bookCollapseSection: true
+# bookFlatSection: true
+# bookCollapseSection: true
 title: "En construction"
 ---
 
