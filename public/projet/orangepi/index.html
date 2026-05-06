@@ -8,32 +8,42 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="À la découverte d’Eduardu#source : personnelle
-EduArdu est une carte électronique comportant de nombreux capteurs. Dans cet article nous allons tous les passer en revue.
-lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joystick with push button#LED 8x8 matrix#RGB LED#Light sensor#PIR sensor#Infra red transmitter#Infra red receiver#Buzzer#Microphone#Ultrasound distance sensor#Temperature sensor#">
+<meta name="description" content="A la découverte d’Orange Pi !#Dans cet article nous allons partir à la découverte des mini ordinateurs avec le Orange Pi CM4 pour créer un ordiateur de breau sur linux.
+source : personnelle
+Carte#Nous possédons un Orange Pi CM4 Based Board ainsi qu’un Orange Pi Compute Module 4
+Voici des ressources
+Installation#Sur une carte mémoire micro SDHC de 32 Gb, j’installe le système d’exploitation.
+source : personnelle
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/decouverteedu/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/projet/orangepi/">
   <meta property="og:site_name" content="Tori">
-  <meta property="og:title" content="Découverte EduArdu">
-  <meta property="og:description" content="À la découverte d’Eduardu#source : personnelle
-EduArdu est une carte électronique comportant de nombreux capteurs. Dans cet article nous allons tous les passer en revue.
-lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joystick with push button#LED 8x8 matrix#RGB LED#Light sensor#PIR sensor#Infra red transmitter#Infra red receiver#Buzzer#Microphone#Ultrasound distance sensor#Temperature sensor#">
+  <meta property="og:title" content="Orange Pi">
+  <meta property="og:description" content="A la découverte d’Orange Pi !#Dans cet article nous allons partir à la découverte des mini ordinateurs avec le Orange Pi CM4 pour créer un ordiateur de breau sur linux.
+source : personnelle
+Carte#Nous possédons un Orange Pi CM4 Based Board ainsi qu’un Orange Pi Compute Module 4
+Voici des ressources
+Installation#Sur une carte mémoire micro SDHC de 32 Gb, j’installe le système d’exploitation.
+source : personnelle">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projet">
 
 
-  <meta itemprop="name" content="Découverte EduArdu">
-  <meta itemprop="description" content="À la découverte d’Eduardu#source : personnelle
-EduArdu est une carte électronique comportant de nombreux capteurs. Dans cet article nous allons tous les passer en revue.
-lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joystick with push button#LED 8x8 matrix#RGB LED#Light sensor#PIR sensor#Infra red transmitter#Infra red receiver#Buzzer#Microphone#Ultrasound distance sensor#Temperature sensor#">
-  <meta itemprop="wordCount" content="64">
+  <meta itemprop="name" content="Orange Pi">
+  <meta itemprop="description" content="A la découverte d’Orange Pi !#Dans cet article nous allons partir à la découverte des mini ordinateurs avec le Orange Pi CM4 pour créer un ordiateur de breau sur linux.
+source : personnelle
+Carte#Nous possédons un Orange Pi CM4 Based Board ainsi qu’un Orange Pi Compute Module 4
+Voici des ressources
+Installation#Sur une carte mémoire micro SDHC de 32 Gb, j’installe le système d’exploitation.
+source : personnelle">
+  <meta itemprop="wordCount" content="104">
 
-<title>Découverte EduArdu | Tori</title>
+<title>Orange Pi | Tori</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:1313/projet/decouverteedu/">
+<link rel="canonical" href="http://localhost:1313/projet/orangepi/">
 <link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
 
 
@@ -144,7 +154,7 @@ lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joyst
   
 
   
-    <a href="/projet/orangepi/" class="">
+    <a href="/projet/orangepi/" class="active">
       Orange Pi</a>
   
 
@@ -307,7 +317,7 @@ lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joyst
     <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Découverte EduArdu</h3>
+  <h3>Orange Pi</h3>
 
   <label for="toc-control">
     
@@ -323,19 +333,10 @@ lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joyst
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#à-la-découverte-deduardu">À la découverte d&rsquo;Eduardu</a>
+    <li><a href="#a-la-découverte-dorange-pi-">A la découverte d&rsquo;Orange Pi !</a>
       <ul>
-        <li><a href="#joystick-with-push-button">Joystick with push button</a></li>
-        <li><a href="#led-8x8-matrix">LED 8x8 matrix</a></li>
-        <li><a href="#rgb-led">RGB LED</a></li>
-        <li><a href="#light-sensor">Light sensor</a></li>
-        <li><a href="#pir-sensor">PIR sensor</a></li>
-        <li><a href="#infra-red-transmitter">Infra red transmitter</a></li>
-        <li><a href="#infra-red-receiver">Infra red receiver</a></li>
-        <li><a href="#buzzer">Buzzer</a></li>
-        <li><a href="#microphone">Microphone</a></li>
-        <li><a href="#ultrasound-distance-sensor">Ultrasound distance sensor</a></li>
-        <li><a href="#temperature-sensor">Temperature sensor</a></li>
+        <li><a href="#carte">Carte</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
   </ul>
@@ -350,26 +351,37 @@ lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joyst
 
       
       
-  <article class="markdown book-article"><h1 id="à-la-découverte-deduardu">À la découverte d&rsquo;Eduardu<a class="anchor" href="#%c3%a0-la-d%c3%a9couverte-deduardu">#</a></h1>
-<p><img src="../../image/eduardu.jpg" alt="EduArdu" title="EduArdu"/>
+  <article class="markdown book-article"><h1 id="a-la-découverte-dorange-pi-">A la découverte d&rsquo;Orange Pi !<a class="anchor" href="#a-la-d%c3%a9couverte-dorange-pi-">#</a></h1>
+<p>Dans cet article nous allons partir à la découverte des mini ordinateurs avec le Orange Pi CM4 pour créer un ordiateur de breau sur linux.</p>
+<p><img src="../../image/orpi.jpg" alt="Orange Pi" title="Orange Pi"/>
 <em>source : personnelle</em></p>
-<p>EduArdu est une carte électronique comportant de nombreux capteurs. Dans cet article nous allons tous les passer en revue.</p>
+<h2 id="carte">Carte<a class="anchor" href="#carte">#</a></h2>
+<p>Nous possédons un  <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-CM4-2.html" target="_blank"> Orange Pi CM4 Based Board</a> ainsi qu&rsquo;un <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-CM4-1.html" target="_blank">Orange Pi Compute Module 4</a></p>
+<p>Voici des <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-CM4-1.html" target="_blank">ressources</a></p>
+<h2 id="installation">Installation<a class="anchor" href="#installation">#</a></h2>
+<p>Sur une carte mémoire micro SDHC de 32 Gb, j&rsquo;installe le système d&rsquo;exploitation.</p>
+<div class="book-columns"id="book-columns-0">
 <ul>
-<li><a href="https://www.olimex.com/Products/Duino/AVR/eduArdu/open-source-hardware" target="_blank">lien vers le vendeur</a></li>
-<li><a href="https://github.com/OLIMEX/eduArdu" target="_blank">lien vers le gitHub d&rsquo;exemples et de documentations</a></li>
+<li>
+<p><img src="../../image/rufusOrange.png" alt="Rufus" title="Rufus"/>
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p>J&rsquo;utilise <a href="https://rufus.ie/fr/" target="_blank">Rufus</a> pour flashé l&rsquo;OS sur la carte SD</p>
+</li>
 </ul>
-<h2 id="joystick-with-push-button">Joystick with push button<a class="anchor" href="#joystick-with-push-button">#</a></h2>
-<h2 id="led-8x8-matrix">LED 8x8 matrix<a class="anchor" href="#led-8x8-matrix">#</a></h2>
-<h2 id="rgb-led">RGB LED<a class="anchor" href="#rgb-led">#</a></h2>
-<h2 id="light-sensor">Light sensor<a class="anchor" href="#light-sensor">#</a></h2>
-<h2 id="pir-sensor">PIR sensor<a class="anchor" href="#pir-sensor">#</a></h2>
-<h2 id="infra-red-transmitter">Infra red transmitter<a class="anchor" href="#infra-red-transmitter">#</a></h2>
-<h2 id="infra-red-receiver">Infra red receiver<a class="anchor" href="#infra-red-receiver">#</a></h2>
-<h2 id="buzzer">Buzzer<a class="anchor" href="#buzzer">#</a></h2>
-<h2 id="microphone">Microphone<a class="anchor" href="#microphone">#</a></h2>
-<h2 id="ultrasound-distance-sensor">Ultrasound distance sensor<a class="anchor" href="#ultrasound-distance-sensor">#</a></h2>
-<h2 id="temperature-sensor">Temperature sensor<a class="anchor" href="#temperature-sensor">#</a></h2>
-</article>
+</div>
+<div class="book-columns"id="book-columns-1">
+<ul>
+<li>
+<p><img src="../../image/opinstall.jpg" alt="instal" title="install"/>
+<em>source : personnelle</em></p>
+</li>
+<li>
+<p>Après avoir branché un écran, un clavier, une sourie et enfin l&rsquo;alimentation. L&rsquo;installation ce lance directement. Nous n&rsquo;avons pratiquement rien à faire</p>
+</li>
+</ul>
+</div></article>
  
       
 
@@ -395,6 +407,25 @@ lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joyst
 
   
   
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/projet/hellopico/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Hello Pico</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/projet/projet0/" class="flex align-center">
+        <span>Projet 0</span>
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
   
 
 
@@ -429,19 +460,10 @@ lien vers le vendeur lien vers le gitHub d’exemples et de documentations Joyst
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#à-la-découverte-deduardu">À la découverte d&rsquo;Eduardu</a>
+    <li><a href="#a-la-découverte-dorange-pi-">A la découverte d&rsquo;Orange Pi !</a>
       <ul>
-        <li><a href="#joystick-with-push-button">Joystick with push button</a></li>
-        <li><a href="#led-8x8-matrix">LED 8x8 matrix</a></li>
-        <li><a href="#rgb-led">RGB LED</a></li>
-        <li><a href="#light-sensor">Light sensor</a></li>
-        <li><a href="#pir-sensor">PIR sensor</a></li>
-        <li><a href="#infra-red-transmitter">Infra red transmitter</a></li>
-        <li><a href="#infra-red-receiver">Infra red receiver</a></li>
-        <li><a href="#buzzer">Buzzer</a></li>
-        <li><a href="#microphone">Microphone</a></li>
-        <li><a href="#ultrasound-distance-sensor">Ultrasound distance sensor</a></li>
-        <li><a href="#temperature-sensor">Temperature sensor</a></li>
+        <li><a href="#carte">Carte</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
   </ul>
